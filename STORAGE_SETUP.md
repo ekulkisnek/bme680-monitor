@@ -16,7 +16,7 @@ Add your GitHub token to Vercel environment variables:
 1. Go to: https://vercel.com/lukes-projects-fe2e76bf/bme680-monitor/settings/environment-variables
 2. Click "Add New"
 3. Key: `GITHUB_TOKEN`
-4. Value: `[Your GitHub token - check your notes]`
+4. Value: `[Your GitHub token]` - Use the token you provided earlier
 5. Select "Production", "Preview", and "Development"
 6. Click "Save"
 7. Go to Deployments → Click "Redeploy" on latest deployment
