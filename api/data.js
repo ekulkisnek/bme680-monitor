@@ -1,11 +1,5 @@
 // API endpoint to retrieve historical BME680 sensor data
 
-const CORS_HEADERS = {
-  'Access-Control-Allow-Origin': '*',
-  'Access-Control-Allow-Methods': 'GET, OPTIONS',
-  'Access-Control-Allow-Headers': 'Content-Type',
-};
-
 export default async function handler(req, res) {
   // Handle CORS preflight
   if (req.method === 'OPTIONS') {
@@ -19,10 +13,47 @@ export default async function handler(req, res) {
 
   try {
     let readings = [];
-    let storageType = 'unknown';
+    let storageType = 'memory';
+    const GITHUB_REPO = 'ekulkisnek/bme680-monitor';
+    const GITHUB_FILE = 'sensor-data.json';
+    const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
+
+    // Option 1: Try GitHub storage (FREE and persistent!)
+    if (GITHUB_TOKEN) {
+      try {
+        const response = await fetch(
+          `https://api.github.com/repos/${GITHUB_REPO}/contents/${GITHUB_FILE}?ref=main`,
+          {
+            headers: {
+              'Authorization': `token ${GITHUB_TOKEN}`,
+              'Accept': 'application/vnd.github.v3+json',
+              'User-Agent': 'BME680-Monitor'
+            }
+          }
+        );
+
+        if (response.status === 200) {
+          const fileData = await response.json();
+          const content = Buffer.from(fileData.content, 'base64').toString('utf-8');
+          readings = JSON.parse(content);
+          
+          if (!Array.isArray(readings)) {
+            readings = [];
+          }
+          
+          storageType = 'github';
+          console.log(`Retrieved ${readings.length} readings from GitHub`);
+        } else if (response.status === 404) {
+          // File doesn't exist yet, return empty array
+          console.log('GitHub file not found yet, returning empty array');
+        }
+      } catch (githubError) {
+        console.error('GitHub retrieval error:', githubError.message);
+      }
+    }
     
-    // Try to use Vercel KV if configured
-    if (process.env.KV_REST_API_URL && process.env.KV_REST_API_TOKEN) {
+    // Option 2: Try Vercel KV if configured
+    if (readings.length === 0 && process.env.KV_REST_API_URL && process.env.KV_REST_API_TOKEN) {
       try {
         const { createClient } = await import('@vercel/kv');
         const kv = createClient({
@@ -38,32 +69,16 @@ export default async function handler(req, res) {
         
         storageType = 'kv';
         console.log(`Retrieved ${readings.length} readings from KV`);
-        
       } catch (kvError) {
         console.error('KV retrieval error:', kvError.message);
       }
     }
-    
-    // If KV not available, try Upstash REST API
-    if (storageType === 'unknown' && process.env.UPSTASH_REDIS_REST_URL && process.env.UPSTASH_REDIS_REST_TOKEN) {
-      try {
-        const response = await fetch(`${process.env.UPSTASH_REDIS_REST_URL}/get/bme680_readings`, {
-          headers: {
-            'Authorization': `Bearer ${process.env.UPSTASH_REDIS_REST_TOKEN}`
-          }
-        });
-        
-        if (response.ok) {
-          const data = await response.json();
-          if (data.result) {
-            readings = JSON.parse(data.result);
-            storageType = 'upstash';
-            console.log(`Retrieved ${readings.length} readings from Upstash`);
-          }
-        }
-      } catch (upstashError) {
-        console.error('Upstash retrieval error:', upstashError.message);
-      }
+
+    // Option 3: Memory storage (fallback)
+    if (readings.length === 0 && global.bme680Data) {
+      readings = global.bme680Data;
+      storageType = 'memory';
+      console.log(`Retrieved ${readings.length} readings from memory`);
     }
 
     // Get limit parameter

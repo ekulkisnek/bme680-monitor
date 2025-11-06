@@ -1,7 +1,10 @@
 // API endpoint to store BME680 sensor data
-// This endpoint receives POST requests from the Raspberry Pi
+// Uses GitHub as free persistent storage
 
-const MAX_RECORDS = 1000; // Keep last 1000 readings
+const MAX_RECORDS = 500; // Keep last 500 readings
+const GITHUB_REPO = 'ekulkisnek/bme680-monitor';
+const GITHUB_FILE = 'sensor-data.json';
+const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 
 export default async function handler(req, res) {
   // Only allow POST requests
@@ -25,10 +28,73 @@ export default async function handler(req, res) {
     }
 
     let allData = [];
-    let storageType = 'unknown';
+    let storageType = 'memory';
     
-    // Try to use Vercel KV if configured
-    if (process.env.KV_REST_API_URL && process.env.KV_REST_API_TOKEN) {
+    // Option 1: Try GitHub storage (FREE and persistent!)
+    if (GITHUB_TOKEN) {
+      try {
+        // Get existing file
+        const getResponse = await fetch(
+          `https://api.github.com/repos/${GITHUB_REPO}/contents/${GITHUB_FILE}`,
+          {
+            headers: {
+              'Authorization': `token ${GITHUB_TOKEN}`,
+              'Accept': 'application/vnd.github.v3+json',
+              'User-Agent': 'BME680-Monitor'
+            }
+          }
+        );
+
+        if (getResponse.status === 200) {
+          const fileData = await getResponse.json();
+          const content = Buffer.from(fileData.content, 'base64').toString('utf-8');
+          allData = JSON.parse(content);
+        }
+
+        // Add new reading
+        allData.push(sensorData);
+        
+        // Keep only last MAX_RECORDS (most recent)
+        if (allData.length > MAX_RECORDS) {
+          allData = allData.slice(-MAX_RECORDS);
+        }
+
+        // Update file on GitHub
+        const updateResponse = await fetch(
+          `https://api.github.com/repos/${GITHUB_REPO}/contents/${GITHUB_FILE}`,
+          {
+            method: 'PUT',
+            headers: {
+              'Authorization': `token ${GITHUB_TOKEN}`,
+              'Accept': 'application/vnd.github.v3+json',
+              'Content-Type': 'application/json',
+              'User-Agent': 'BME680-Monitor'
+            },
+            body: JSON.stringify({
+              message: `Update sensor data: ${new Date().toISOString()}`,
+              content: Buffer.from(JSON.stringify(allData, null, 2)).toString('base64'),
+              sha: getResponse.status === 200 ? (await getResponse.json()).sha : undefined
+            })
+          }
+        );
+
+        if (updateResponse.ok) {
+          storageType = 'github';
+          console.log(`Stored ${allData.length} readings to GitHub`);
+        } else {
+          const errorData = await updateResponse.json();
+          console.error('GitHub storage error:', errorData.message);
+          // Fall through to memory storage
+          allData = allData.slice(-MAX_RECORDS);
+        }
+      } catch (githubError) {
+        console.error('GitHub storage error:', githubError.message);
+        // Fall through to memory storage
+      }
+    }
+
+    // Option 2: Try Vercel KV if configured
+    if (storageType === 'memory' && process.env.KV_REST_API_URL && process.env.KV_REST_API_TOKEN) {
       try {
         const { createClient } = await import('@vercel/kv');
         const kv = createClient({
@@ -38,82 +104,42 @@ export default async function handler(req, res) {
         
         const existingData = await kv.get('bme680_readings') || [];
         allData = Array.isArray(existingData) ? existingData : [];
-        
-        // Add new reading
         allData.push(sensorData);
         
-        // Keep only last MAX_RECORDS
         if (allData.length > MAX_RECORDS) {
           allData = allData.slice(-MAX_RECORDS);
         }
         
-        // Store back to KV
         await kv.set('bme680_readings', allData);
-        await kv.set('bme680_last_updated', sensorData.timestamp);
-        
         storageType = 'kv';
-        console.log(`Stored data to KV: ${allData.length} total readings`);
-        
+        console.log(`Stored ${allData.length} readings to KV`);
       } catch (kvError) {
         console.error('KV storage error:', kvError.message);
-        // Fall through to alternative storage
-      }
-    }
-    
-    // If KV not available/configured, use Upstash REST API as fallback
-    if (storageType === 'unknown') {
-      try {
-        // Try Upstash REST API (free tier available)
-        const UPSTASH_URL = process.env.UPSTASH_REDIS_REST_URL;
-        const UPSTASH_TOKEN = process.env.UPSTASH_REDIS_REST_TOKEN;
-        
-        if (UPSTASH_URL && UPSTASH_TOKEN) {
-          // Get existing data
-          const getResponse = await fetch(`${UPSTASH_URL}/get/bme680_readings`, {
-            headers: {
-              'Authorization': `Bearer ${UPSTASH_TOKEN}`
-            }
-          });
-          
-          if (getResponse.ok) {
-            const getData = await getResponse.json();
-            allData = getData.result ? JSON.parse(getData.result) : [];
-          }
-          
-          // Add new reading
-          allData.push(sensorData);
-          
-          // Keep only last MAX_RECORDS
-          if (allData.length > MAX_RECORDS) {
-            allData = allData.slice(-MAX_RECORDS);
-          }
-          
-          // Store back
-          await fetch(`${UPSTASH_URL}/set/bme680_readings`, {
-            method: 'POST',
-            headers: {
-              'Authorization': `Bearer ${UPSTASH_TOKEN}`,
-              'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(JSON.stringify(allData))
-          });
-          
-          storageType = 'upstash';
-          console.log(`Stored data to Upstash: ${allData.length} total readings`);
-        }
-      } catch (upstashError) {
-        console.error('Upstash storage error:', upstashError.message);
       }
     }
 
-    // Return success (even if storage isn't persistent, at least acknowledge receipt)
+    // Option 3: Memory storage (fallback - not persistent)
+    if (storageType === 'memory') {
+      // In-memory storage (module-level variable)
+      // Note: This won't persist across serverless invocations
+      if (!global.bme680Data) {
+        global.bme680Data = [];
+      }
+      global.bme680Data.push(sensorData);
+      if (global.bme680Data.length > MAX_RECORDS) {
+        global.bme680Data = global.bme680Data.slice(-MAX_RECORDS);
+      }
+      allData = global.bme680Data;
+      console.log(`Stored ${allData.length} readings to memory (not persistent)`);
+    }
+
+    // Return success
     return res.status(200).json({ 
       success: true, 
       message: 'Data stored successfully',
       timestamp: sensorData.timestamp,
       totalReadings: allData.length,
-      storageType: storageType,
-      note: storageType === 'unknown' ? 'Configure KV_REST_API_URL/KV_REST_API_TOKEN or UPSTASH_REDIS_REST_URL/UPSTASH_REDIS_REST_TOKEN for persistent storage' : undefined
+      storageType: storageType
     });
     
   } catch (error) {
