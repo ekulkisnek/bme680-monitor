@@ -3,13 +3,6 @@
 
 const MAX_RECORDS = 1000; // Keep last 1000 readings
 
-// In-memory storage (persists per serverless function instance)
-// Note: For production, configure Vercel KV for persistent storage
-let memoryStore = {
-  data: [],
-  lastUpdated: null
-};
-
 export default async function handler(req, res) {
   // Only allow POST requests
   if (req.method !== 'POST') {
@@ -32,57 +25,95 @@ export default async function handler(req, res) {
     }
 
     let allData = [];
+    let storageType = 'unknown';
     
     // Try to use Vercel KV if configured
-    try {
-      const { createClient } = await import('@vercel/kv');
-      const kv = createClient({
-        url: process.env.KV_REST_API_URL,
-        token: process.env.KV_REST_API_TOKEN,
-      });
-      
-      const existingData = await kv.get('bme680_readings') || [];
-      allData = Array.isArray(existingData) ? existingData : [];
-      
-      // Add new reading
-      allData.push(sensorData);
-      
-      // Keep only last MAX_RECORDS
-      if (allData.length > MAX_RECORDS) {
-        allData = allData.slice(-MAX_RECORDS);
+    if (process.env.KV_REST_API_URL && process.env.KV_REST_API_TOKEN) {
+      try {
+        const { createClient } = await import('@vercel/kv');
+        const kv = createClient({
+          url: process.env.KV_REST_API_URL,
+          token: process.env.KV_REST_API_TOKEN,
+        });
+        
+        const existingData = await kv.get('bme680_readings') || [];
+        allData = Array.isArray(existingData) ? existingData : [];
+        
+        // Add new reading
+        allData.push(sensorData);
+        
+        // Keep only last MAX_RECORDS
+        if (allData.length > MAX_RECORDS) {
+          allData = allData.slice(-MAX_RECORDS);
+        }
+        
+        // Store back to KV
+        await kv.set('bme680_readings', allData);
+        await kv.set('bme680_last_updated', sensorData.timestamp);
+        
+        storageType = 'kv';
+        console.log(`Stored data to KV: ${allData.length} total readings`);
+        
+      } catch (kvError) {
+        console.error('KV storage error:', kvError.message);
+        // Fall through to alternative storage
       }
-      
-      // Store back to KV
-      await kv.set('bme680_readings', allData);
-      await kv.set('bme680_last_updated', sensorData.timestamp);
-      
-      console.log(`Stored data to KV: ${allData.length} total readings`);
-      
-    } catch (kvError) {
-      // Fallback: Use in-memory storage
-      console.log('KV not configured, using in-memory storage');
-      
-      // Use memory store
-      allData = memoryStore.data || [];
-      allData.push(sensorData);
-      
-      // Keep only last MAX_RECORDS
-      if (allData.length > MAX_RECORDS) {
-        allData = allData.slice(-MAX_RECORDS);
+    }
+    
+    // If KV not available/configured, use Upstash REST API as fallback
+    if (storageType === 'unknown') {
+      try {
+        // Try Upstash REST API (free tier available)
+        const UPSTASH_URL = process.env.UPSTASH_REDIS_REST_URL;
+        const UPSTASH_TOKEN = process.env.UPSTASH_REDIS_REST_TOKEN;
+        
+        if (UPSTASH_URL && UPSTASH_TOKEN) {
+          // Get existing data
+          const getResponse = await fetch(`${UPSTASH_URL}/get/bme680_readings`, {
+            headers: {
+              'Authorization': `Bearer ${UPSTASH_TOKEN}`
+            }
+          });
+          
+          if (getResponse.ok) {
+            const getData = await getResponse.json();
+            allData = getData.result ? JSON.parse(getData.result) : [];
+          }
+          
+          // Add new reading
+          allData.push(sensorData);
+          
+          // Keep only last MAX_RECORDS
+          if (allData.length > MAX_RECORDS) {
+            allData = allData.slice(-MAX_RECORDS);
+          }
+          
+          // Store back
+          await fetch(`${UPSTASH_URL}/set/bme680_readings`, {
+            method: 'POST',
+            headers: {
+              'Authorization': `Bearer ${UPSTASH_TOKEN}`,
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(JSON.stringify(allData))
+          });
+          
+          storageType = 'upstash';
+          console.log(`Stored data to Upstash: ${allData.length} total readings`);
+        }
+      } catch (upstashError) {
+        console.error('Upstash storage error:', upstashError.message);
       }
-      
-      memoryStore.data = allData;
-      memoryStore.lastUpdated = sensorData.timestamp;
-      
-      console.log(`Stored data to memory: ${allData.length} total readings`);
     }
 
-    // Return success
+    // Return success (even if storage isn't persistent, at least acknowledge receipt)
     return res.status(200).json({ 
       success: true, 
       message: 'Data stored successfully',
       timestamp: sensorData.timestamp,
-      totalReadings: allData.length
+      totalReadings: allData.length,
+      storageType: storageType,
+      note: storageType === 'unknown' ? 'Configure KV_REST_API_URL/KV_REST_API_TOKEN or UPSTASH_REDIS_REST_URL/UPSTASH_REDIS_REST_TOKEN for persistent storage' : undefined
     });
     
   } catch (error) {
@@ -93,4 +124,3 @@ export default async function handler(req, res) {
     });
   }
 }
-

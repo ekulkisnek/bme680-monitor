@@ -1,0 +1,13 @@
+#!/bin/bash
+echo "Setting up Vercel KV for persistent storage..."
+echo ""
+echo "1. Go to: https://vercel.com/lukes-projects-fe2e76bf/bme680-monitor/storage"
+echo "2. Click 'Create Database'"
+echo "3. Select 'KV'"
+echo "4. Create the database"
+echo "5. Copy the REST API URL and Token"
+echo "6. Add them as environment variables in Vercel project settings"
+echo ""
+echo "Or run this command with your credentials:"
+echo "vercel env add KV_REST_API_URL"
+echo "vercel env add KV_REST_API_TOKEN"

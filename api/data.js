@@ -6,12 +6,6 @@ const CORS_HEADERS = {
   'Access-Control-Allow-Headers': 'Content-Type',
 };
 
-// Shared memory store (fallback if KV not configured)
-let memoryStore = {
-  data: [],
-  lastUpdated: null
-};
-
 export default async function handler(req, res) {
   // Handle CORS preflight
   if (req.method === 'OPTIONS') {
@@ -25,28 +19,51 @@ export default async function handler(req, res) {
 
   try {
     let readings = [];
+    let storageType = 'unknown';
     
     // Try to use Vercel KV if configured
-    try {
-      const { createClient } = await import('@vercel/kv');
-      const kv = createClient({
-        url: process.env.KV_REST_API_URL,
-        token: process.env.KV_REST_API_TOKEN,
-      });
-      
-      readings = await kv.get('bme680_readings') || [];
-      
-      if (!Array.isArray(readings)) {
-        readings = [];
+    if (process.env.KV_REST_API_URL && process.env.KV_REST_API_TOKEN) {
+      try {
+        const { createClient } = await import('@vercel/kv');
+        const kv = createClient({
+          url: process.env.KV_REST_API_URL,
+          token: process.env.KV_REST_API_TOKEN,
+        });
+        
+        readings = await kv.get('bme680_readings') || [];
+        
+        if (!Array.isArray(readings)) {
+          readings = [];
+        }
+        
+        storageType = 'kv';
+        console.log(`Retrieved ${readings.length} readings from KV`);
+        
+      } catch (kvError) {
+        console.error('KV retrieval error:', kvError.message);
       }
-      
-      console.log(`Retrieved ${readings.length} readings from KV`);
-      
-    } catch (kvError) {
-      // Fallback: Use in-memory storage
-      console.log('KV not configured, using in-memory storage');
-      readings = memoryStore.data || [];
-      console.log(`Retrieved ${readings.length} readings from memory`);
+    }
+    
+    // If KV not available, try Upstash REST API
+    if (storageType === 'unknown' && process.env.UPSTASH_REDIS_REST_URL && process.env.UPSTASH_REDIS_REST_TOKEN) {
+      try {
+        const response = await fetch(`${process.env.UPSTASH_REDIS_REST_URL}/get/bme680_readings`, {
+          headers: {
+            'Authorization': `Bearer ${process.env.UPSTASH_REDIS_REST_TOKEN}`
+          }
+        });
+        
+        if (response.ok) {
+          const data = await response.json();
+          if (data.result) {
+            readings = JSON.parse(data.result);
+            storageType = 'upstash';
+            console.log(`Retrieved ${readings.length} readings from Upstash`);
+          }
+        }
+      } catch (upstashError) {
+        console.error('Upstash retrieval error:', upstashError.message);
+      }
     }
 
     // Get limit parameter
@@ -59,7 +76,8 @@ export default async function handler(req, res) {
       .json({
         success: true,
         count: limitedReadings.length,
-        data: limitedReadings
+        data: limitedReadings,
+        storageType: storageType
       });
       
   } catch (error) {
@@ -72,4 +90,3 @@ export default async function handler(req, res) {
       });
   }
 }
-
