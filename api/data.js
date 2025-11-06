@@ -19,9 +19,12 @@ export default async function handler(req, res) {
     const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 
     // Option 1: Try GitHub storage (FREE and persistent!)
-    if (GITHUB_TOKEN) {
-      try {
-        const response = await fetch(
+    // First try with token if available, then fallback to public access
+    try {
+      let response;
+      if (GITHUB_TOKEN) {
+        // Use authenticated request (can update)
+        response = await fetch(
           `https://api.github.com/repos/${GITHUB_REPO}/contents/${GITHUB_FILE}?ref=main`,
           {
             headers: {
@@ -31,25 +34,44 @@ export default async function handler(req, res) {
             }
           }
         );
-
-        if (response.status === 200) {
-          const fileData = await response.json();
-          const content = Buffer.from(fileData.content, 'base64').toString('utf-8');
-          readings = JSON.parse(content);
-          
-          if (!Array.isArray(readings)) {
-            readings = [];
+      } else {
+        // Use public raw URL (read-only but works without auth)
+        response = await fetch(
+          `https://raw.githubusercontent.com/${GITHUB_REPO}/main/${GITHUB_FILE}`,
+          {
+            headers: {
+              'Accept': 'application/json',
+              'User-Agent': 'BME680-Monitor'
+            }
           }
-          
-          storageType = 'github';
-          console.log(`Retrieved ${readings.length} readings from GitHub`);
-        } else if (response.status === 404) {
-          // File doesn't exist yet, return empty array
-          console.log('GitHub file not found yet, returning empty array');
-        }
-      } catch (githubError) {
-        console.error('GitHub retrieval error:', githubError.message);
+        );
       }
+
+      if (response.ok) {
+        let content;
+        if (GITHUB_TOKEN && response.status === 200) {
+          // GitHub API returns base64 encoded
+          const fileData = await response.json();
+          content = Buffer.from(fileData.content, 'base64').toString('utf-8');
+        } else {
+          // Raw URL returns plain text
+          content = await response.text();
+        }
+        
+        readings = JSON.parse(content);
+        
+        if (!Array.isArray(readings)) {
+          readings = [];
+        }
+        
+        storageType = 'github';
+        console.log(`Retrieved ${readings.length} readings from GitHub`);
+      } else if (response.status === 404) {
+        // File doesn't exist yet, return empty array
+        console.log('GitHub file not found yet, returning empty array');
+      }
+    } catch (githubError) {
+      console.error('GitHub retrieval error:', githubError.message);
     }
     
     // Option 2: Try Vercel KV if configured
