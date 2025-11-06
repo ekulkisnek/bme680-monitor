@@ -1,0 +1,15 @@
+{
+  "name": "bme680-monitor",
+  "version": "1.0.0",
+  "description": "BME680 Sensor Data Monitor for Raspberry Pi",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "@vercel/kv": "^0.2.3"
+  },
+  "devDependencies": {
+    "vercel": "^36.0.0"
+  }
+}
+
