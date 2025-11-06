@@ -1,2 +1,10 @@
-[]
-
+[
+  {
+    "temperature": 24.21,
+    "humidity": 34.52,
+    "pressure": 1001.86,
+    "gas": 123175,
+    "altitude": 95.23,
+    "timestamp": "2025-11-06T03:27:09.646788Z"
+  }
+]
