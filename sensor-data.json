@@ -558,5 +558,13 @@
     "gas": 56926,
     "altitude": 94.9,
     "timestamp": "2025-11-06T03:38:50.573775Z"
+  },
+  {
+    "temperature": 23.85,
+    "humidity": 35.47,
+    "pressure": 1001.9,
+    "gas": 56887,
+    "altitude": 94.93,
+    "timestamp": "2025-11-06T03:39:02.040084Z"
   }
 ]
