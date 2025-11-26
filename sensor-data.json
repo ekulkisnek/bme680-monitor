@@ -1,82 +1,4002 @@
 [
   {
-    "temperature": 24.21,
-    "humidity": 34.52,
-    "pressure": 1001.86,
-    "gas": 123175,
-    "altitude": 95.23,
-    "timestamp": "2025-11-06T03:27:09.646788Z"
+    "temperature": 23.36,
+    "humidity": 37.47,
+    "pressure": 986.74,
+    "gas": 43807,
+    "altitude": 223.09,
+    "timestamp": "2025-11-26T00:57:13.207792Z"
   },
   {
-    "temperature": 24.2,
-    "humidity": 34.59,
-    "pressure": 1001.86,
-    "gas": 49802,
-    "altitude": 95.29,
-    "timestamp": "2025-11-06T03:27:21.054138Z"
+    "temperature": 23.36,
+    "humidity": 37.49,
+    "pressure": 986.74,
+    "gas": 43761,
+    "altitude": 223.11,
+    "timestamp": "2025-11-26T00:57:24.716631Z"
   },
   {
-    "temperature": 24.2,
-    "humidity": 34.6,
-    "pressure": 1001.86,
-    "gas": 56130,
-    "altitude": 95.27,
-    "timestamp": "2025-11-06T03:27:32.476117Z"
+    "temperature": 23.37,
+    "humidity": 37.48,
+    "pressure": 986.75,
+    "gas": 43852,
+    "altitude": 223.03,
+    "timestamp": "2025-11-26T00:57:36.177818Z"
   },
   {
-    "temperature": 24.19,
-    "humidity": 34.62,
-    "pressure": 1001.85,
-    "gas": 57312,
-    "altitude": 95.33,
-    "timestamp": "2025-11-06T03:27:43.944915Z"
+    "temperature": 23.37,
+    "humidity": 37.48,
+    "pressure": 986.76,
+    "gas": 43989,
+    "altitude": 222.92,
+    "timestamp": "2025-11-26T00:57:47.643504Z"
   },
   {
-    "temperature": 24.16,
-    "humidity": 34.61,
-    "pressure": 1001.85,
-    "gas": 104295,
-    "altitude": 95.37,
-    "timestamp": "2025-11-06T03:27:52.997682Z"
+    "temperature": 23.37,
+    "humidity": 37.47,
+    "pressure": 986.75,
+    "gas": 43898,
+    "altitude": 223.03,
+    "timestamp": "2025-11-26T00:57:59.193644Z"
   },
   {
-    "temperature": 24.16,
-    "humidity": 34.6,
-    "pressure": 1001.85,
-    "gas": 52465,
-    "altitude": 95.37,
-    "timestamp": "2025-11-06T03:27:55.451947Z"
+    "temperature": 23.37,
+    "humidity": 37.46,
+    "pressure": 986.74,
+    "gas": 43898,
+    "altitude": 223.05,
+    "timestamp": "2025-11-26T00:58:10.659243Z"
   },
   {
-    "temperature": 24.16,
-    "humidity": 34.62,
-    "pressure": 1001.85,
-    "gas": 59037,
-    "altitude": 95.32,
-    "timestamp": "2025-11-06T03:28:04.463774Z"
+    "temperature": 23.37,
+    "humidity": 37.46,
+    "pressure": 986.74,
+    "gas": 43989,
+    "altitude": 223.05,
+    "timestamp": "2025-11-26T00:58:22.224410Z"
   },
   {
-    "temperature": 24.17,
-    "humidity": 34.56,
-    "pressure": 1001.86,
-    "gas": 67924,
-    "altitude": 95.3,
-    "timestamp": "2025-11-06T03:28:06.911197Z"
+    "temperature": 23.38,
+    "humidity": 37.45,
+    "pressure": 986.74,
+    "gas": 43581,
+    "altitude": 223.07,
+    "timestamp": "2025-11-26T00:58:33.773780Z"
   },
   {
-    "temperature": 24.17,
-    "humidity": 34.6,
-    "pressure": 1001.85,
-    "gas": 63814,
-    "altitude": 95.33,
-    "timestamp": "2025-11-06T03:28:15.937334Z"
+    "temperature": 23.38,
+    "humidity": 37.45,
+    "pressure": 986.74,
+    "gas": 43716,
+    "altitude": 223.05,
+    "timestamp": "2025-11-26T00:58:45.441912Z"
   },
   {
-    "temperature": 24.18,
-    "humidity": 34.55,
-    "pressure": 1001.85,
+    "temperature": 23.38,
+    "humidity": 37.44,
+    "pressure": 986.74,
+    "gas": 43716,
+    "altitude": 223.11,
+    "timestamp": "2025-11-26T00:58:57.004079Z"
+  },
+  {
+    "temperature": 23.38,
+    "humidity": 37.44,
+    "pressure": 986.73,
+    "gas": 43626,
+    "altitude": 223.14,
+    "timestamp": "2025-11-26T00:59:08.531353Z"
+  },
+  {
+    "temperature": 23.39,
+    "humidity": 37.42,
+    "pressure": 986.73,
+    "gas": 43536,
+    "altitude": 223.15,
+    "timestamp": "2025-11-26T00:59:20.105021Z"
+  },
+  {
+    "temperature": 23.39,
+    "humidity": 37.43,
+    "pressure": 986.73,
+    "gas": 43761,
+    "altitude": 223.15,
+    "timestamp": "2025-11-26T00:59:31.589134Z"
+  },
+  {
+    "temperature": 23.4,
+    "humidity": 37.4,
+    "pressure": 986.73,
+    "gas": 43491,
+    "altitude": 223.17,
+    "timestamp": "2025-11-26T00:59:43.114863Z"
+  },
+  {
+    "temperature": 23.4,
+    "humidity": 37.37,
+    "pressure": 986.73,
+    "gas": 43944,
+    "altitude": 223.17,
+    "timestamp": "2025-11-26T00:59:54.587583Z"
+  },
+  {
+    "temperature": 23.41,
+    "humidity": 37.39,
+    "pressure": 986.73,
+    "gas": 43989,
+    "altitude": 223.16,
+    "timestamp": "2025-11-26T01:00:06.043103Z"
+  },
+  {
+    "temperature": 23.41,
+    "humidity": 37.37,
+    "pressure": 986.73,
+    "gas": 43402,
+    "altitude": 223.18,
+    "timestamp": "2025-11-26T01:00:17.511351Z"
+  },
+  {
+    "temperature": 23.41,
+    "humidity": 37.35,
+    "pressure": 986.74,
+    "gas": 43852,
+    "altitude": 223.13,
+    "timestamp": "2025-11-26T01:00:28.995547Z"
+  },
+  {
+    "temperature": 23.41,
+    "humidity": 37.35,
+    "pressure": 986.74,
+    "gas": 43671,
+    "altitude": 223.11,
+    "timestamp": "2025-11-26T01:00:40.480432Z"
+  },
+  {
+    "temperature": 23.42,
+    "humidity": 37.36,
+    "pressure": 986.73,
+    "gas": 43671,
+    "altitude": 223.15,
+    "timestamp": "2025-11-26T01:00:52.012537Z"
+  },
+  {
+    "temperature": 23.42,
+    "humidity": 37.35,
+    "pressure": 986.71,
+    "gas": 43671,
+    "altitude": 223.31,
+    "timestamp": "2025-11-26T01:01:03.559349Z"
+  },
+  {
+    "temperature": 23.43,
+    "humidity": 37.32,
+    "pressure": 986.71,
+    "gas": 43716,
+    "altitude": 223.33,
+    "timestamp": "2025-11-26T01:01:15.137986Z"
+  },
+  {
+    "temperature": 23.43,
+    "humidity": 37.32,
+    "pressure": 986.71,
+    "gas": 43581,
+    "altitude": 223.32,
+    "timestamp": "2025-11-26T01:01:26.666136Z"
+  },
+  {
+    "temperature": 23.43,
+    "humidity": 37.33,
+    "pressure": 986.72,
+    "gas": 43716,
+    "altitude": 223.29,
+    "timestamp": "2025-11-26T01:01:38.166552Z"
+  },
+  {
+    "temperature": 23.43,
+    "humidity": 37.31,
+    "pressure": 986.72,
+    "gas": 43807,
+    "altitude": 223.24,
+    "timestamp": "2025-11-26T01:01:49.703129Z"
+  },
+  {
+    "temperature": 23.44,
+    "humidity": 37.3,
+    "pressure": 986.72,
+    "gas": 43536,
+    "altitude": 223.28,
+    "timestamp": "2025-11-26T01:02:01.174998Z"
+  },
+  {
+    "temperature": 23.44,
+    "humidity": 37.31,
+    "pressure": 986.72,
+    "gas": 43671,
+    "altitude": 223.23,
+    "timestamp": "2025-11-26T01:02:12.745547Z"
+  },
+  {
+    "temperature": 23.44,
+    "humidity": 37.3,
+    "pressure": 986.72,
+    "gas": 43671,
+    "altitude": 223.29,
+    "timestamp": "2025-11-26T01:02:24.227996Z"
+  },
+  {
+    "temperature": 23.45,
+    "humidity": 37.29,
+    "pressure": 986.71,
+    "gas": 43671,
+    "altitude": 223.34,
+    "timestamp": "2025-11-26T01:02:35.788381Z"
+  },
+  {
+    "temperature": 23.45,
+    "humidity": 37.29,
+    "pressure": 986.71,
+    "gas": 43536,
+    "altitude": 223.35,
+    "timestamp": "2025-11-26T01:02:47.306872Z"
+  },
+  {
+    "temperature": 23.45,
+    "humidity": 37.29,
+    "pressure": 986.7,
+    "gas": 43807,
+    "altitude": 223.42,
+    "timestamp": "2025-11-26T01:02:58.838387Z"
+  },
+  {
+    "temperature": 23.45,
+    "humidity": 37.27,
+    "pressure": 986.71,
+    "gas": 43716,
+    "altitude": 223.37,
+    "timestamp": "2025-11-26T01:03:10.326394Z"
+  },
+  {
+    "temperature": 23.45,
+    "humidity": 37.28,
+    "pressure": 986.7,
+    "gas": 43536,
+    "altitude": 223.43,
+    "timestamp": "2025-11-26T01:03:21.945517Z"
+  },
+  {
+    "temperature": 23.45,
+    "humidity": 37.29,
+    "pressure": 986.7,
+    "gas": 43626,
+    "altitude": 223.41,
+    "timestamp": "2025-11-26T01:03:33.516955Z"
+  },
+  {
+    "temperature": 23.45,
+    "humidity": 37.28,
+    "pressure": 986.7,
+    "gas": 43268,
+    "altitude": 223.45,
+    "timestamp": "2025-11-26T01:03:45.120310Z"
+  },
+  {
+    "temperature": 23.45,
+    "humidity": 37.29,
+    "pressure": 986.69,
+    "gas": 43716,
+    "altitude": 223.48,
+    "timestamp": "2025-11-26T01:03:56.613999Z"
+  },
+  {
+    "temperature": 23.45,
+    "humidity": 37.27,
+    "pressure": 986.7,
+    "gas": 43180,
+    "altitude": 223.43,
+    "timestamp": "2025-11-26T01:04:08.070565Z"
+  },
+  {
+    "temperature": 23.45,
+    "humidity": 37.27,
+    "pressure": 986.69,
+    "gas": 43671,
+    "altitude": 223.48,
+    "timestamp": "2025-11-26T01:04:19.596891Z"
+  },
+  {
+    "temperature": 23.45,
+    "humidity": 37.26,
+    "pressure": 986.69,
+    "gas": 43536,
+    "altitude": 223.49,
+    "timestamp": "2025-11-26T01:04:31.120802Z"
+  },
+  {
+    "temperature": 23.45,
+    "humidity": 37.26,
+    "pressure": 986.69,
+    "gas": 43313,
+    "altitude": 223.47,
+    "timestamp": "2025-11-26T01:04:42.820662Z"
+  },
+  {
+    "temperature": 23.45,
+    "humidity": 37.28,
+    "pressure": 986.69,
+    "gas": 43313,
+    "altitude": 223.54,
+    "timestamp": "2025-11-26T01:04:54.446941Z"
+  },
+  {
+    "temperature": 23.45,
+    "humidity": 37.28,
+    "pressure": 986.68,
+    "gas": 43224,
+    "altitude": 223.59,
+    "timestamp": "2025-11-26T01:05:06.020806Z"
+  },
+  {
+    "temperature": 23.45,
+    "humidity": 37.26,
+    "pressure": 986.68,
+    "gas": 43180,
+    "altitude": 223.62,
+    "timestamp": "2025-11-26T01:05:17.681842Z"
+  },
+  {
+    "temperature": 23.45,
+    "humidity": 37.26,
+    "pressure": 986.68,
+    "gas": 43402,
+    "altitude": 223.58,
+    "timestamp": "2025-11-26T01:05:29.239347Z"
+  },
+  {
+    "temperature": 23.45,
+    "humidity": 37.26,
+    "pressure": 986.68,
+    "gas": 43446,
+    "altitude": 223.57,
+    "timestamp": "2025-11-26T01:05:40.707433Z"
+  },
+  {
+    "temperature": 23.45,
+    "humidity": 37.25,
+    "pressure": 986.68,
+    "gas": 43357,
+    "altitude": 223.63,
+    "timestamp": "2025-11-26T01:05:52.207545Z"
+  },
+  {
+    "temperature": 23.46,
+    "humidity": 37.24,
+    "pressure": 986.68,
+    "gas": 43491,
+    "altitude": 223.6,
+    "timestamp": "2025-11-26T01:06:03.835243Z"
+  },
+  {
+    "temperature": 23.46,
+    "humidity": 37.24,
+    "pressure": 986.68,
+    "gas": 43357,
+    "altitude": 223.59,
+    "timestamp": "2025-11-26T01:06:15.383144Z"
+  },
+  {
+    "temperature": 23.46,
+    "humidity": 37.22,
+    "pressure": 986.67,
+    "gas": 43092,
+    "altitude": 223.69,
+    "timestamp": "2025-11-26T01:06:27.196675Z"
+  },
+  {
+    "temperature": 23.46,
+    "humidity": 37.22,
+    "pressure": 986.67,
+    "gas": 43180,
+    "altitude": 223.71,
+    "timestamp": "2025-11-26T01:06:38.794371Z"
+  },
+  {
+    "temperature": 23.46,
+    "humidity": 37.21,
+    "pressure": 986.66,
+    "gas": 43268,
+    "altitude": 223.79,
+    "timestamp": "2025-11-26T01:06:50.376480Z"
+  },
+  {
+    "temperature": 23.47,
+    "humidity": 37.2,
+    "pressure": 986.66,
+    "gas": 43402,
+    "altitude": 223.8,
+    "timestamp": "2025-11-26T01:07:01.857679Z"
+  },
+  {
+    "temperature": 23.47,
+    "humidity": 37.2,
+    "pressure": 986.65,
+    "gas": 43402,
+    "altitude": 223.85,
+    "timestamp": "2025-11-26T01:07:13.441729Z"
+  },
+  {
+    "temperature": 23.47,
+    "humidity": 37.18,
+    "pressure": 986.65,
+    "gas": 43402,
+    "altitude": 223.82,
+    "timestamp": "2025-11-26T01:07:24.956056Z"
+  },
+  {
+    "temperature": 23.47,
+    "humidity": 37.21,
+    "pressure": 986.66,
+    "gas": 43446,
+    "altitude": 223.78,
+    "timestamp": "2025-11-26T01:07:36.475982Z"
+  },
+  {
+    "temperature": 23.47,
+    "humidity": 37.21,
+    "pressure": 986.66,
+    "gas": 43357,
+    "altitude": 223.79,
+    "timestamp": "2025-11-26T01:07:47.907821Z"
+  },
+  {
+    "temperature": 23.47,
+    "humidity": 37.2,
+    "pressure": 986.66,
+    "gas": 43446,
+    "altitude": 223.79,
+    "timestamp": "2025-11-26T01:07:59.509880Z"
+  },
+  {
+    "temperature": 23.47,
+    "humidity": 37.18,
+    "pressure": 986.67,
+    "gas": 43581,
+    "altitude": 223.73,
+    "timestamp": "2025-11-26T01:08:10.956439Z"
+  },
+  {
+    "temperature": 23.46,
+    "humidity": 37.18,
+    "pressure": 986.66,
+    "gas": 43313,
+    "altitude": 223.75,
+    "timestamp": "2025-11-26T01:08:22.537085Z"
+  },
+  {
+    "temperature": 23.45,
+    "humidity": 37.19,
+    "pressure": 986.66,
+    "gas": 43536,
+    "altitude": 223.73,
+    "timestamp": "2025-11-26T01:08:34.063349Z"
+  },
+  {
+    "temperature": 23.45,
+    "humidity": 37.21,
+    "pressure": 986.67,
+    "gas": 43357,
+    "altitude": 223.69,
+    "timestamp": "2025-11-26T01:08:45.575515Z"
+  },
+  {
+    "temperature": 23.44,
+    "humidity": 37.21,
+    "pressure": 986.66,
+    "gas": 43581,
+    "altitude": 223.75,
+    "timestamp": "2025-11-26T01:08:57.060233Z"
+  },
+  {
+    "temperature": 23.43,
+    "humidity": 37.26,
+    "pressure": 986.66,
+    "gas": 43716,
+    "altitude": 223.75,
+    "timestamp": "2025-11-26T01:09:08.617437Z"
+  },
+  {
+    "temperature": 23.42,
+    "humidity": 37.29,
+    "pressure": 986.66,
+    "gas": 43402,
+    "altitude": 223.8,
+    "timestamp": "2025-11-26T01:09:20.197216Z"
+  },
+  {
+    "temperature": 23.4,
+    "humidity": 37.34,
+    "pressure": 986.66,
+    "gas": 43581,
+    "altitude": 223.81,
+    "timestamp": "2025-11-26T01:09:31.746486Z"
+  },
+  {
+    "temperature": 23.39,
+    "humidity": 37.37,
+    "pressure": 986.66,
+    "gas": 43536,
+    "altitude": 223.78,
+    "timestamp": "2025-11-26T01:09:43.206325Z"
+  },
+  {
+    "temperature": 23.38,
+    "humidity": 37.37,
+    "pressure": 986.66,
+    "gas": 43357,
+    "altitude": 223.74,
+    "timestamp": "2025-11-26T01:09:54.702013Z"
+  },
+  {
+    "temperature": 23.37,
+    "humidity": 37.41,
+    "pressure": 986.67,
+    "gas": 43807,
+    "altitude": 223.69,
+    "timestamp": "2025-11-26T01:10:06.185891Z"
+  },
+  {
+    "temperature": 23.37,
+    "humidity": 37.39,
+    "pressure": 986.67,
+    "gas": 43268,
+    "altitude": 223.66,
+    "timestamp": "2025-11-26T01:10:17.728221Z"
+  },
+  {
+    "temperature": 23.37,
+    "humidity": 37.38,
+    "pressure": 986.67,
+    "gas": 43716,
+    "altitude": 223.65,
+    "timestamp": "2025-11-26T01:10:29.228063Z"
+  },
+  {
+    "temperature": 23.37,
+    "humidity": 37.37,
+    "pressure": 986.68,
+    "gas": 43491,
+    "altitude": 223.61,
+    "timestamp": "2025-11-26T01:10:40.787915Z"
+  },
+  {
+    "temperature": 23.37,
+    "humidity": 37.36,
+    "pressure": 986.68,
+    "gas": 43671,
+    "altitude": 223.58,
+    "timestamp": "2025-11-26T01:10:52.392619Z"
+  },
+  {
+    "temperature": 23.37,
+    "humidity": 37.39,
+    "pressure": 986.68,
+    "gas": 43671,
+    "altitude": 223.62,
+    "timestamp": "2025-11-26T01:11:03.995619Z"
+  },
+  {
+    "temperature": 23.36,
+    "humidity": 37.38,
+    "pressure": 986.67,
+    "gas": 43536,
+    "altitude": 223.71,
+    "timestamp": "2025-11-26T01:11:15.516705Z"
+  },
+  {
+    "temperature": 23.36,
+    "humidity": 37.39,
+    "pressure": 986.67,
+    "gas": 43402,
+    "altitude": 223.66,
+    "timestamp": "2025-11-26T01:11:27.335085Z"
+  },
+  {
+    "temperature": 23.36,
+    "humidity": 37.39,
+    "pressure": 986.67,
+    "gas": 43626,
+    "altitude": 223.7,
+    "timestamp": "2025-11-26T01:11:38.904524Z"
+  },
+  {
+    "temperature": 23.36,
+    "humidity": 37.39,
+    "pressure": 986.67,
+    "gas": 43446,
+    "altitude": 223.71,
+    "timestamp": "2025-11-26T01:11:50.488263Z"
+  },
+  {
+    "temperature": 23.36,
+    "humidity": 37.38,
+    "pressure": 986.66,
+    "gas": 43446,
+    "altitude": 223.73,
+    "timestamp": "2025-11-26T01:12:01.991062Z"
+  },
+  {
+    "temperature": 23.37,
+    "humidity": 37.37,
+    "pressure": 986.67,
+    "gas": 43807,
+    "altitude": 223.69,
+    "timestamp": "2025-11-26T01:12:13.523187Z"
+  },
+  {
+    "temperature": 23.36,
+    "humidity": 37.38,
+    "pressure": 986.67,
+    "gas": 43761,
+    "altitude": 223.72,
+    "timestamp": "2025-11-26T01:12:24.978723Z"
+  },
+  {
+    "temperature": 23.37,
+    "humidity": 37.36,
+    "pressure": 986.66,
+    "gas": 43536,
+    "altitude": 223.78,
+    "timestamp": "2025-11-26T01:12:36.513698Z"
+  },
+  {
+    "temperature": 23.36,
+    "humidity": 37.36,
+    "pressure": 986.65,
+    "gas": 43898,
+    "altitude": 223.87,
+    "timestamp": "2025-11-26T01:12:48.081249Z"
+  },
+  {
+    "temperature": 23.36,
+    "humidity": 37.38,
+    "pressure": 986.64,
+    "gas": 43402,
+    "altitude": 223.93,
+    "timestamp": "2025-11-26T01:12:59.660865Z"
+  },
+  {
+    "temperature": 23.35,
+    "humidity": 37.41,
+    "pressure": 986.64,
+    "gas": 43898,
+    "altitude": 223.91,
+    "timestamp": "2025-11-26T01:13:11.188660Z"
+  },
+  {
+    "temperature": 23.35,
+    "humidity": 37.43,
+    "pressure": 986.65,
+    "gas": 43491,
+    "altitude": 223.85,
+    "timestamp": "2025-11-26T01:13:22.905940Z"
+  },
+  {
+    "temperature": 23.34,
+    "humidity": 37.44,
+    "pressure": 986.65,
+    "gas": 43536,
+    "altitude": 223.82,
+    "timestamp": "2025-11-26T01:13:34.437691Z"
+  },
+  {
+    "temperature": 23.34,
+    "humidity": 37.43,
+    "pressure": 986.66,
+    "gas": 43446,
+    "altitude": 223.77,
+    "timestamp": "2025-11-26T01:13:46.155164Z"
+  },
+  {
+    "temperature": 23.35,
+    "humidity": 37.41,
+    "pressure": 986.66,
+    "gas": 43716,
+    "altitude": 223.8,
+    "timestamp": "2025-11-26T01:13:57.551941Z"
+  },
+  {
+    "temperature": 23.35,
+    "humidity": 37.39,
+    "pressure": 986.65,
+    "gas": 43536,
+    "altitude": 223.83,
+    "timestamp": "2025-11-26T01:14:09.066808Z"
+  },
+  {
+    "temperature": 23.36,
+    "humidity": 37.34,
+    "pressure": 986.65,
+    "gas": 43671,
+    "altitude": 223.85,
+    "timestamp": "2025-11-26T01:14:20.602349Z"
+  },
+  {
+    "temperature": 23.36,
+    "humidity": 37.35,
+    "pressure": 986.65,
+    "gas": 43446,
+    "altitude": 223.83,
+    "timestamp": "2025-11-26T01:14:32.237632Z"
+  },
+  {
+    "temperature": 23.37,
+    "humidity": 37.36,
+    "pressure": 986.65,
+    "gas": 43716,
+    "altitude": 223.89,
+    "timestamp": "2025-11-26T01:14:43.829437Z"
+  },
+  {
+    "temperature": 23.36,
+    "humidity": 37.36,
+    "pressure": 986.64,
+    "gas": 43716,
+    "altitude": 223.91,
+    "timestamp": "2025-11-26T01:14:55.342267Z"
+  },
+  {
+    "temperature": 23.36,
+    "humidity": 37.4,
+    "pressure": 986.64,
+    "gas": 43671,
+    "altitude": 223.96,
+    "timestamp": "2025-11-26T01:15:06.834251Z"
+  },
+  {
+    "temperature": 23.36,
+    "humidity": 37.42,
+    "pressure": 986.63,
+    "gas": 43491,
+    "altitude": 223.99,
+    "timestamp": "2025-11-26T01:15:18.309065Z"
+  },
+  {
+    "temperature": 23.36,
+    "humidity": 37.45,
+    "pressure": 986.63,
+    "gas": 43536,
+    "altitude": 224.0,
+    "timestamp": "2025-11-26T01:15:29.839044Z"
+  },
+  {
+    "temperature": 23.36,
+    "humidity": 37.46,
+    "pressure": 986.63,
+    "gas": 43581,
+    "altitude": 224.02,
+    "timestamp": "2025-11-26T01:15:41.369043Z"
+  },
+  {
+    "temperature": 23.36,
+    "humidity": 37.46,
+    "pressure": 986.61,
+    "gas": 43807,
+    "altitude": 224.16,
+    "timestamp": "2025-11-26T01:15:52.904181Z"
+  },
+  {
+    "temperature": 23.37,
+    "humidity": 37.46,
+    "pressure": 986.61,
+    "gas": 43357,
+    "altitude": 224.21,
+    "timestamp": "2025-11-26T01:16:04.422745Z"
+  },
+  {
+    "temperature": 23.37,
+    "humidity": 37.44,
+    "pressure": 986.61,
+    "gas": 43626,
+    "altitude": 224.23,
+    "timestamp": "2025-11-26T01:16:15.882110Z"
+  },
+  {
+    "temperature": 23.38,
+    "humidity": 37.43,
+    "pressure": 986.6,
+    "gas": 43536,
+    "altitude": 224.26,
+    "timestamp": "2025-11-26T01:16:27.381038Z"
+  },
+  {
+    "temperature": 23.38,
+    "humidity": 37.41,
+    "pressure": 986.61,
+    "gas": 43491,
+    "altitude": 224.23,
+    "timestamp": "2025-11-26T01:16:38.897614Z"
+  },
+  {
+    "temperature": 23.38,
+    "humidity": 37.41,
+    "pressure": 986.6,
+    "gas": 43446,
+    "altitude": 224.24,
+    "timestamp": "2025-11-26T01:16:50.394722Z"
+  },
+  {
+    "temperature": 23.38,
+    "humidity": 37.44,
+    "pressure": 986.61,
+    "gas": 43581,
+    "altitude": 224.17,
+    "timestamp": "2025-11-26T01:17:01.848539Z"
+  },
+  {
+    "temperature": 23.38,
+    "humidity": 37.44,
+    "pressure": 986.61,
+    "gas": 43716,
+    "altitude": 224.18,
+    "timestamp": "2025-11-26T01:17:13.385681Z"
+  },
+  {
+    "temperature": 23.38,
+    "humidity": 37.51,
+    "pressure": 986.61,
+    "gas": 37604,
+    "altitude": 224.2,
+    "timestamp": "2025-11-26T01:17:48.841264Z"
+  },
+  {
+    "temperature": 23.37,
+    "humidity": 37.48,
+    "pressure": 986.6,
+    "gas": 39839,
+    "altitude": 224.25,
+    "timestamp": "2025-11-26T01:18:00.334299Z"
+  },
+  {
+    "temperature": 23.37,
+    "humidity": 37.48,
+    "pressure": 986.6,
+    "gas": 41240,
+    "altitude": 224.3,
+    "timestamp": "2025-11-26T01:18:11.916901Z"
+  },
+  {
+    "temperature": 23.37,
+    "humidity": 37.52,
+    "pressure": 986.59,
+    "gas": 41812,
+    "altitude": 224.33,
+    "timestamp": "2025-11-26T01:18:23.416222Z"
+  },
+  {
+    "temperature": 23.37,
+    "humidity": 37.58,
+    "pressure": 986.6,
+    "gas": 42272,
+    "altitude": 224.32,
+    "timestamp": "2025-11-26T01:18:34.916026Z"
+  },
+  {
+    "temperature": 23.37,
+    "humidity": 37.67,
+    "pressure": 986.58,
+    "gas": 42399,
+    "altitude": 224.44,
+    "timestamp": "2025-11-26T01:18:46.460116Z"
+  },
+  {
+    "temperature": 23.37,
+    "humidity": 37.77,
+    "pressure": 986.58,
+    "gas": 42485,
+    "altitude": 224.45,
+    "timestamp": "2025-11-26T01:18:58.121294Z"
+  },
+  {
+    "temperature": 23.38,
+    "humidity": 37.75,
+    "pressure": 986.57,
+    "gas": 42613,
+    "altitude": 224.52,
+    "timestamp": "2025-11-26T01:19:09.542382Z"
+  },
+  {
+    "temperature": 23.38,
+    "humidity": 37.72,
+    "pressure": 986.57,
+    "gas": 42570,
+    "altitude": 224.56,
+    "timestamp": "2025-11-26T01:19:21.096210Z"
+  },
+  {
+    "temperature": 23.39,
+    "humidity": 37.69,
+    "pressure": 986.56,
+    "gas": 42786,
+    "altitude": 224.6,
+    "timestamp": "2025-11-26T01:19:32.658184Z"
+  },
+  {
+    "temperature": 23.39,
+    "humidity": 37.7,
+    "pressure": 986.56,
+    "gas": 42399,
+    "altitude": 224.59,
+    "timestamp": "2025-11-26T01:19:44.213060Z"
+  },
+  {
+    "temperature": 23.39,
+    "humidity": 37.66,
+    "pressure": 986.57,
+    "gas": 42656,
+    "altitude": 224.58,
+    "timestamp": "2025-11-26T01:19:55.713423Z"
+  },
+  {
+    "temperature": 23.4,
+    "humidity": 37.65,
+    "pressure": 986.57,
+    "gas": 41442,
+    "altitude": 224.53,
+    "timestamp": "2025-11-26T01:20:09.844329Z"
+  },
+  {
+    "temperature": 23.41,
+    "humidity": 37.69,
+    "pressure": 986.57,
+    "gas": 42020,
+    "altitude": 224.56,
+    "timestamp": "2025-11-26T01:20:21.301456Z"
+  },
+  {
+    "temperature": 23.41,
+    "humidity": 37.66,
+    "pressure": 986.57,
+    "gas": 42061,
+    "altitude": 224.57,
+    "timestamp": "2025-11-26T01:20:32.861472Z"
+  },
+  {
+    "temperature": 23.42,
+    "humidity": 37.66,
+    "pressure": 986.56,
+    "gas": 42188,
+    "altitude": 224.58,
+    "timestamp": "2025-11-26T01:20:44.446998Z"
+  },
+  {
+    "temperature": 23.43,
+    "humidity": 37.65,
+    "pressure": 986.56,
+    "gas": 42442,
+    "altitude": 224.62,
+    "timestamp": "2025-11-26T01:20:55.941194Z"
+  },
+  {
+    "temperature": 23.44,
+    "humidity": 37.63,
+    "pressure": 986.56,
+    "gas": 42570,
+    "altitude": 224.61,
+    "timestamp": "2025-11-26T01:21:07.437491Z"
+  },
+  {
+    "temperature": 23.43,
+    "humidity": 37.59,
+    "pressure": 986.56,
+    "gas": 42656,
+    "altitude": 224.59,
+    "timestamp": "2025-11-26T01:21:18.892799Z"
+  },
+  {
+    "temperature": 23.43,
+    "humidity": 37.55,
+    "pressure": 986.56,
+    "gas": 42786,
+    "altitude": 224.6,
+    "timestamp": "2025-11-26T01:21:30.507685Z"
+  },
+  {
+    "temperature": 23.43,
+    "humidity": 37.59,
+    "pressure": 986.56,
+    "gas": 42613,
+    "altitude": 224.64,
+    "timestamp": "2025-11-26T01:21:41.961210Z"
+  },
+  {
+    "temperature": 23.43,
+    "humidity": 37.61,
+    "pressure": 986.55,
+    "gas": 42442,
+    "altitude": 224.69,
+    "timestamp": "2025-11-26T01:21:53.508049Z"
+  },
+  {
+    "temperature": 23.42,
+    "humidity": 37.61,
+    "pressure": 986.55,
+    "gas": 42570,
+    "altitude": 224.68,
+    "timestamp": "2025-11-26T01:22:05.010185Z"
+  },
+  {
+    "temperature": 23.41,
+    "humidity": 37.58,
+    "pressure": 986.55,
+    "gas": 42960,
+    "altitude": 224.73,
+    "timestamp": "2025-11-26T01:22:16.536323Z"
+  },
+  {
+    "temperature": 23.41,
+    "humidity": 37.59,
+    "pressure": 986.55,
+    "gas": 42656,
+    "altitude": 224.75,
+    "timestamp": "2025-11-26T01:22:28.024285Z"
+  },
+  {
+    "temperature": 23.4,
+    "humidity": 37.61,
+    "pressure": 986.54,
+    "gas": 42656,
+    "altitude": 224.8,
+    "timestamp": "2025-11-26T01:22:39.634724Z"
+  },
+  {
+    "temperature": 23.39,
+    "humidity": 37.62,
+    "pressure": 986.54,
+    "gas": 42916,
+    "altitude": 224.79,
+    "timestamp": "2025-11-26T01:22:51.143330Z"
+  },
+  {
+    "temperature": 23.38,
+    "humidity": 37.66,
+    "pressure": 986.54,
+    "gas": 42699,
+    "altitude": 224.79,
+    "timestamp": "2025-11-26T01:23:02.598957Z"
+  },
+  {
+    "temperature": 23.38,
+    "humidity": 37.69,
+    "pressure": 986.54,
+    "gas": 42656,
+    "altitude": 224.82,
+    "timestamp": "2025-11-26T01:23:14.076198Z"
+  },
+  {
+    "temperature": 23.38,
+    "humidity": 37.71,
+    "pressure": 986.54,
+    "gas": 42656,
+    "altitude": 224.81,
+    "timestamp": "2025-11-26T01:23:25.599548Z"
+  },
+  {
+    "temperature": 23.38,
+    "humidity": 37.72,
+    "pressure": 986.53,
+    "gas": 42656,
+    "altitude": 224.86,
+    "timestamp": "2025-11-26T01:23:37.185232Z"
+  },
+  {
+    "temperature": 23.37,
+    "humidity": 37.73,
+    "pressure": 986.53,
+    "gas": 42357,
+    "altitude": 224.84,
+    "timestamp": "2025-11-26T01:23:48.716869Z"
+  },
+  {
+    "temperature": 23.37,
+    "humidity": 37.75,
+    "pressure": 986.53,
+    "gas": 42613,
+    "altitude": 224.84,
+    "timestamp": "2025-11-26T01:24:00.218701Z"
+  },
+  {
+    "temperature": 23.37,
+    "humidity": 37.75,
+    "pressure": 986.54,
+    "gas": 42873,
+    "altitude": 224.82,
+    "timestamp": "2025-11-26T01:24:11.729474Z"
+  },
+  {
+    "temperature": 23.36,
+    "humidity": 37.77,
+    "pressure": 986.54,
+    "gas": 42873,
+    "altitude": 224.82,
+    "timestamp": "2025-11-26T01:24:23.276586Z"
+  },
+  {
+    "temperature": 23.36,
+    "humidity": 37.78,
+    "pressure": 986.54,
+    "gas": 42699,
+    "altitude": 224.77,
+    "timestamp": "2025-11-26T01:24:34.799376Z"
+  },
+  {
+    "temperature": 23.36,
+    "humidity": 37.77,
+    "pressure": 986.55,
+    "gas": 42613,
+    "altitude": 224.72,
+    "timestamp": "2025-11-26T01:24:46.289218Z"
+  },
+  {
+    "temperature": 23.36,
+    "humidity": 37.79,
+    "pressure": 986.54,
+    "gas": 42916,
+    "altitude": 224.77,
+    "timestamp": "2025-11-26T01:24:57.765401Z"
+  },
+  {
+    "temperature": 23.36,
+    "humidity": 37.77,
+    "pressure": 986.53,
+    "gas": 42829,
+    "altitude": 224.87,
+    "timestamp": "2025-11-26T01:25:09.214965Z"
+  },
+  {
+    "temperature": 23.37,
+    "humidity": 37.77,
+    "pressure": 986.53,
+    "gas": 42527,
+    "altitude": 224.89,
+    "timestamp": "2025-11-26T01:25:20.806147Z"
+  },
+  {
+    "temperature": 23.37,
+    "humidity": 37.78,
+    "pressure": 986.53,
+    "gas": 42699,
+    "altitude": 224.88,
+    "timestamp": "2025-11-26T01:25:32.433739Z"
+  },
+  {
+    "temperature": 23.38,
+    "humidity": 37.76,
+    "pressure": 986.53,
+    "gas": 42699,
+    "altitude": 224.89,
+    "timestamp": "2025-11-26T01:25:43.966596Z"
+  },
+  {
+    "temperature": 23.38,
+    "humidity": 37.77,
+    "pressure": 986.53,
+    "gas": 42399,
+    "altitude": 224.84,
+    "timestamp": "2025-11-26T01:25:55.544006Z"
+  },
+  {
+    "temperature": 23.38,
+    "humidity": 37.74,
+    "pressure": 986.53,
+    "gas": 42485,
+    "altitude": 224.89,
+    "timestamp": "2025-11-26T01:26:07.082485Z"
+  },
+  {
+    "temperature": 23.39,
+    "humidity": 37.73,
+    "pressure": 986.53,
+    "gas": 42916,
+    "altitude": 224.88,
+    "timestamp": "2025-11-26T01:26:18.569899Z"
+  },
+  {
+    "temperature": 23.39,
+    "humidity": 37.74,
+    "pressure": 986.53,
+    "gas": 42061,
+    "altitude": 224.9,
+    "timestamp": "2025-11-26T01:26:30.928398Z"
+  },
+  {
+    "temperature": 23.39,
+    "humidity": 37.74,
+    "pressure": 986.52,
+    "gas": 42020,
+    "altitude": 224.93,
+    "timestamp": "2025-11-26T01:26:43.215106Z"
+  },
+  {
+    "temperature": 23.4,
+    "humidity": 37.73,
+    "pressure": 986.52,
+    "gas": 42188,
+    "altitude": 224.93,
+    "timestamp": "2025-11-26T01:26:54.772613Z"
+  },
+  {
+    "temperature": 23.4,
+    "humidity": 37.74,
+    "pressure": 986.52,
+    "gas": 42103,
+    "altitude": 224.94,
+    "timestamp": "2025-11-26T01:27:06.330499Z"
+  },
+  {
+    "temperature": 23.41,
+    "humidity": 37.7,
+    "pressure": 986.53,
+    "gas": 42188,
+    "altitude": 224.91,
+    "timestamp": "2025-11-26T01:27:17.857191Z"
+  },
+  {
+    "temperature": 23.41,
+    "humidity": 37.69,
+    "pressure": 986.52,
+    "gas": 42272,
+    "altitude": 224.96,
+    "timestamp": "2025-11-26T01:27:29.322420Z"
+  },
+  {
+    "temperature": 23.41,
+    "humidity": 37.7,
+    "pressure": 986.51,
+    "gas": 42527,
+    "altitude": 225.01,
+    "timestamp": "2025-11-26T01:27:40.777467Z"
+  },
+  {
+    "temperature": 23.41,
+    "humidity": 37.71,
+    "pressure": 986.51,
+    "gas": 42314,
+    "altitude": 225.06,
+    "timestamp": "2025-11-26T01:27:52.453044Z"
+  },
+  {
+    "temperature": 23.41,
+    "humidity": 37.64,
+    "pressure": 986.5,
+    "gas": 42314,
+    "altitude": 225.12,
+    "timestamp": "2025-11-26T01:28:04.035756Z"
+  },
+  {
+    "temperature": 23.41,
+    "humidity": 37.63,
+    "pressure": 986.49,
+    "gas": 42656,
+    "altitude": 225.22,
+    "timestamp": "2025-11-26T01:28:15.587771Z"
+  },
+  {
+    "temperature": 23.39,
+    "humidity": 37.65,
+    "pressure": 986.49,
+    "gas": 42656,
+    "altitude": 225.22,
+    "timestamp": "2025-11-26T01:28:27.079143Z"
+  },
+  {
+    "temperature": 23.38,
+    "humidity": 37.68,
+    "pressure": 986.49,
+    "gas": 42527,
+    "altitude": 225.25,
+    "timestamp": "2025-11-26T01:28:38.546713Z"
+  },
+  {
+    "temperature": 23.38,
+    "humidity": 37.7,
+    "pressure": 986.48,
+    "gas": 42743,
+    "altitude": 225.27,
+    "timestamp": "2025-11-26T01:28:50.043597Z"
+  },
+  {
+    "temperature": 23.38,
+    "humidity": 37.7,
+    "pressure": 986.49,
+    "gas": 42485,
+    "altitude": 225.23,
+    "timestamp": "2025-11-26T01:29:01.633485Z"
+  },
+  {
+    "temperature": 23.37,
+    "humidity": 37.71,
+    "pressure": 986.48,
+    "gas": 42656,
+    "altitude": 225.27,
+    "timestamp": "2025-11-26T01:29:13.119570Z"
+  },
+  {
+    "temperature": 23.37,
+    "humidity": 37.69,
+    "pressure": 986.49,
+    "gas": 42442,
+    "altitude": 225.22,
+    "timestamp": "2025-11-26T01:29:24.733648Z"
+  },
+  {
+    "temperature": 23.37,
+    "humidity": 37.68,
+    "pressure": 986.49,
+    "gas": 42485,
+    "altitude": 225.19,
+    "timestamp": "2025-11-26T01:29:36.256696Z"
+  },
+  {
+    "temperature": 23.37,
+    "humidity": 37.71,
+    "pressure": 986.49,
+    "gas": 42527,
+    "altitude": 225.18,
+    "timestamp": "2025-11-26T01:29:47.813189Z"
+  },
+  {
+    "temperature": 23.37,
+    "humidity": 37.71,
+    "pressure": 986.51,
+    "gas": 42656,
+    "altitude": 225.07,
+    "timestamp": "2025-11-26T01:29:59.391551Z"
+  },
+  {
+    "temperature": 23.37,
+    "humidity": 37.71,
+    "pressure": 986.5,
+    "gas": 42570,
+    "altitude": 225.09,
+    "timestamp": "2025-11-26T01:30:10.941439Z"
+  },
+  {
+    "temperature": 23.37,
+    "humidity": 37.71,
+    "pressure": 986.5,
+    "gas": 42743,
+    "altitude": 225.16,
+    "timestamp": "2025-11-26T01:30:22.489229Z"
+  },
+  {
+    "temperature": 23.37,
+    "humidity": 37.72,
+    "pressure": 986.5,
+    "gas": 42570,
+    "altitude": 225.1,
+    "timestamp": "2025-11-26T01:30:34.086162Z"
+  },
+  {
+    "temperature": 23.37,
+    "humidity": 37.73,
+    "pressure": 986.5,
+    "gas": 42399,
+    "altitude": 225.15,
+    "timestamp": "2025-11-26T01:30:45.623295Z"
+  },
+  {
+    "temperature": 23.37,
+    "humidity": 37.74,
+    "pressure": 986.5,
+    "gas": 42230,
+    "altitude": 225.16,
+    "timestamp": "2025-11-26T01:30:57.628629Z"
+  },
+  {
+    "temperature": 23.37,
+    "humidity": 37.72,
+    "pressure": 986.49,
+    "gas": 42570,
+    "altitude": 225.21,
+    "timestamp": "2025-11-26T01:31:09.133799Z"
+  },
+  {
+    "temperature": 23.37,
+    "humidity": 37.71,
+    "pressure": 986.49,
+    "gas": 42314,
+    "altitude": 225.22,
+    "timestamp": "2025-11-26T01:31:20.669033Z"
+  },
+  {
+    "temperature": 23.37,
+    "humidity": 37.71,
+    "pressure": 986.49,
+    "gas": 42485,
+    "altitude": 225.26,
+    "timestamp": "2025-11-26T01:31:32.109356Z"
+  },
+  {
+    "temperature": 23.37,
+    "humidity": 37.73,
+    "pressure": 986.49,
+    "gas": 42743,
+    "altitude": 225.21,
+    "timestamp": "2025-11-26T01:31:43.687582Z"
+  },
+  {
+    "temperature": 23.36,
+    "humidity": 37.73,
+    "pressure": 986.48,
+    "gas": 42442,
+    "altitude": 225.27,
+    "timestamp": "2025-11-26T01:31:55.155742Z"
+  },
+  {
+    "temperature": 23.36,
+    "humidity": 37.73,
+    "pressure": 986.48,
+    "gas": 42570,
+    "altitude": 225.28,
+    "timestamp": "2025-11-26T01:32:06.732238Z"
+  },
+  {
+    "temperature": 23.36,
+    "humidity": 37.72,
+    "pressure": 986.48,
+    "gas": 42743,
+    "altitude": 225.29,
+    "timestamp": "2025-11-26T01:32:18.271561Z"
+  },
+  {
+    "temperature": 23.36,
+    "humidity": 37.74,
+    "pressure": 986.48,
+    "gas": 42527,
+    "altitude": 225.28,
+    "timestamp": "2025-11-26T01:32:29.912916Z"
+  },
+  {
+    "temperature": 23.36,
+    "humidity": 37.74,
+    "pressure": 986.47,
+    "gas": 42399,
+    "altitude": 225.35,
+    "timestamp": "2025-11-26T01:32:41.520895Z"
+  },
+  {
+    "temperature": 23.36,
+    "humidity": 37.73,
+    "pressure": 986.47,
+    "gas": 42699,
+    "altitude": 225.38,
+    "timestamp": "2025-11-26T01:32:53.103078Z"
+  },
+  {
+    "temperature": 23.36,
+    "humidity": 37.75,
+    "pressure": 986.46,
+    "gas": 42613,
+    "altitude": 225.45,
+    "timestamp": "2025-11-26T01:33:04.630451Z"
+  },
+  {
+    "temperature": 23.36,
+    "humidity": 37.73,
+    "pressure": 986.46,
+    "gas": 42527,
+    "altitude": 225.47,
+    "timestamp": "2025-11-26T01:33:16.179945Z"
+  },
+  {
+    "temperature": 23.36,
+    "humidity": 37.74,
+    "pressure": 986.46,
+    "gas": 42656,
+    "altitude": 225.44,
+    "timestamp": "2025-11-26T01:33:27.764531Z"
+  },
+  {
+    "temperature": 23.36,
+    "humidity": 37.76,
+    "pressure": 986.46,
+    "gas": 42399,
+    "altitude": 225.46,
+    "timestamp": "2025-11-26T01:33:39.310957Z"
+  },
+  {
+    "temperature": 23.36,
+    "humidity": 37.76,
+    "pressure": 986.46,
+    "gas": 42399,
+    "altitude": 225.49,
+    "timestamp": "2025-11-26T01:33:50.860943Z"
+  },
+  {
+    "temperature": 23.36,
+    "humidity": 37.75,
+    "pressure": 986.46,
+    "gas": 42527,
+    "altitude": 225.46,
+    "timestamp": "2025-11-26T01:34:02.440033Z"
+  },
+  {
+    "temperature": 23.36,
+    "humidity": 37.76,
+    "pressure": 986.46,
+    "gas": 42699,
+    "altitude": 225.51,
+    "timestamp": "2025-11-26T01:34:13.944488Z"
+  },
+  {
+    "temperature": 23.36,
+    "humidity": 37.77,
+    "pressure": 986.46,
+    "gas": 42314,
+    "altitude": 225.51,
+    "timestamp": "2025-11-26T01:34:25.508245Z"
+  },
+  {
+    "temperature": 23.36,
+    "humidity": 37.78,
+    "pressure": 986.45,
+    "gas": 42357,
+    "altitude": 225.53,
+    "timestamp": "2025-11-26T01:34:37.051343Z"
+  },
+  {
+    "temperature": 23.36,
+    "humidity": 37.76,
+    "pressure": 986.45,
+    "gas": 42656,
+    "altitude": 225.52,
+    "timestamp": "2025-11-26T01:34:48.514768Z"
+  },
+  {
+    "temperature": 23.36,
+    "humidity": 37.79,
+    "pressure": 986.46,
+    "gas": 42485,
+    "altitude": 225.51,
+    "timestamp": "2025-11-26T01:34:59.967990Z"
+  },
+  {
+    "temperature": 23.36,
+    "humidity": 37.77,
+    "pressure": 986.45,
+    "gas": 42570,
+    "altitude": 225.56,
+    "timestamp": "2025-11-26T01:35:11.525058Z"
+  },
+  {
+    "temperature": 23.36,
+    "humidity": 37.8,
+    "pressure": 986.45,
+    "gas": 42699,
+    "altitude": 225.57,
+    "timestamp": "2025-11-26T01:35:23.000011Z"
+  },
+  {
+    "temperature": 23.36,
+    "humidity": 37.8,
+    "pressure": 986.44,
+    "gas": 42442,
+    "altitude": 225.61,
+    "timestamp": "2025-11-26T01:35:34.631532Z"
+  },
+  {
+    "temperature": 23.36,
+    "humidity": 37.82,
+    "pressure": 986.44,
+    "gas": 42527,
+    "altitude": 225.67,
+    "timestamp": "2025-11-26T01:35:46.160592Z"
+  },
+  {
+    "temperature": 23.36,
+    "humidity": 37.8,
+    "pressure": 986.44,
+    "gas": 42145,
+    "altitude": 225.67,
+    "timestamp": "2025-11-26T01:35:57.647196Z"
+  },
+  {
+    "temperature": 23.36,
+    "humidity": 37.8,
+    "pressure": 986.43,
+    "gas": 42399,
+    "altitude": 225.76,
+    "timestamp": "2025-11-26T01:36:09.224281Z"
+  },
+  {
+    "temperature": 23.36,
+    "humidity": 37.81,
+    "pressure": 986.42,
+    "gas": 42314,
+    "altitude": 225.83,
+    "timestamp": "2025-11-26T01:36:20.806512Z"
+  },
+  {
+    "temperature": 23.36,
+    "humidity": 37.82,
+    "pressure": 986.41,
+    "gas": 42272,
+    "altitude": 225.93,
+    "timestamp": "2025-11-26T01:36:32.295500Z"
+  },
+  {
+    "temperature": 23.36,
+    "humidity": 37.82,
+    "pressure": 986.4,
+    "gas": 42399,
+    "altitude": 226.0,
+    "timestamp": "2025-11-26T01:36:43.729401Z"
+  },
+  {
+    "temperature": 23.36,
+    "humidity": 37.8,
+    "pressure": 986.4,
+    "gas": 42485,
+    "altitude": 225.98,
+    "timestamp": "2025-11-26T01:36:55.251347Z"
+  },
+  {
+    "temperature": 23.36,
+    "humidity": 37.77,
+    "pressure": 986.4,
+    "gas": 42442,
+    "altitude": 225.98,
+    "timestamp": "2025-11-26T01:37:06.704063Z"
+  },
+  {
+    "temperature": 23.37,
+    "humidity": 37.79,
+    "pressure": 986.4,
+    "gas": 42485,
+    "altitude": 225.98,
+    "timestamp": "2025-11-26T01:37:18.180211Z"
+  },
+  {
+    "temperature": 23.37,
+    "humidity": 37.76,
+    "pressure": 986.39,
+    "gas": 42314,
+    "altitude": 226.03,
+    "timestamp": "2025-11-26T01:37:29.832799Z"
+  },
+  {
+    "temperature": 23.38,
+    "humidity": 37.75,
+    "pressure": 986.4,
+    "gas": 42442,
+    "altitude": 226.0,
+    "timestamp": "2025-11-26T01:37:41.330550Z"
+  },
+  {
+    "temperature": 23.38,
+    "humidity": 37.73,
+    "pressure": 986.39,
+    "gas": 42399,
+    "altitude": 226.07,
+    "timestamp": "2025-11-26T01:37:52.864827Z"
+  },
+  {
+    "temperature": 23.39,
+    "humidity": 37.72,
+    "pressure": 986.38,
+    "gas": 42527,
+    "altitude": 226.13,
+    "timestamp": "2025-11-26T01:38:04.347218Z"
+  },
+  {
+    "temperature": 23.39,
+    "humidity": 37.71,
+    "pressure": 986.38,
+    "gas": 42485,
+    "altitude": 226.19,
+    "timestamp": "2025-11-26T01:38:15.919141Z"
+  },
+  {
+    "temperature": 23.39,
+    "humidity": 37.71,
+    "pressure": 986.36,
+    "gas": 42188,
+    "altitude": 226.29,
+    "timestamp": "2025-11-26T01:38:27.385330Z"
+  },
+  {
+    "temperature": 23.4,
+    "humidity": 37.7,
+    "pressure": 986.37,
+    "gas": 42188,
+    "altitude": 226.27,
+    "timestamp": "2025-11-26T01:38:38.776223Z"
+  },
+  {
+    "temperature": 23.4,
+    "humidity": 37.7,
+    "pressure": 986.36,
+    "gas": 42314,
+    "altitude": 226.35,
+    "timestamp": "2025-11-26T01:38:50.347930Z"
+  },
+  {
+    "temperature": 23.4,
+    "humidity": 37.72,
+    "pressure": 986.35,
+    "gas": 42570,
+    "altitude": 226.37,
+    "timestamp": "2025-11-26T01:39:01.860701Z"
+  },
+  {
+    "temperature": 23.4,
+    "humidity": 37.69,
+    "pressure": 986.35,
+    "gas": 42527,
+    "altitude": 226.39,
+    "timestamp": "2025-11-26T01:39:13.360880Z"
+  },
+  {
+    "temperature": 23.4,
+    "humidity": 37.73,
+    "pressure": 986.35,
+    "gas": 42357,
+    "altitude": 226.43,
+    "timestamp": "2025-11-26T01:39:24.864905Z"
+  },
+  {
+    "temperature": 23.4,
+    "humidity": 37.74,
+    "pressure": 986.34,
+    "gas": 42103,
+    "altitude": 226.46,
+    "timestamp": "2025-11-26T01:39:36.519893Z"
+  },
+  {
+    "temperature": 23.41,
+    "humidity": 37.74,
+    "pressure": 986.34,
+    "gas": 42145,
+    "altitude": 226.46,
+    "timestamp": "2025-11-26T01:39:48.017042Z"
+  },
+  {
+    "temperature": 23.41,
+    "humidity": 37.74,
+    "pressure": 986.35,
+    "gas": 42145,
+    "altitude": 226.39,
+    "timestamp": "2025-11-26T01:39:59.684686Z"
+  },
+  {
+    "temperature": 23.4,
+    "humidity": 37.74,
+    "pressure": 986.35,
+    "gas": 42357,
+    "altitude": 226.38,
+    "timestamp": "2025-11-26T01:40:11.191536Z"
+  },
+  {
+    "temperature": 23.4,
+    "humidity": 37.73,
+    "pressure": 986.35,
+    "gas": 42357,
+    "altitude": 226.4,
+    "timestamp": "2025-11-26T01:40:22.718100Z"
+  },
+  {
+    "temperature": 23.4,
+    "humidity": 37.72,
+    "pressure": 986.34,
+    "gas": 42230,
+    "altitude": 226.48,
+    "timestamp": "2025-11-26T01:40:34.251505Z"
+  },
+  {
+    "temperature": 23.4,
+    "humidity": 37.73,
+    "pressure": 986.34,
+    "gas": 42188,
+    "altitude": 226.51,
+    "timestamp": "2025-11-26T01:40:45.732045Z"
+  },
+  {
+    "temperature": 23.41,
+    "humidity": 37.73,
+    "pressure": 986.33,
+    "gas": 42570,
+    "altitude": 226.57,
+    "timestamp": "2025-11-26T01:40:57.188839Z"
+  },
+  {
+    "temperature": 23.41,
+    "humidity": 37.72,
+    "pressure": 986.34,
+    "gas": 42188,
+    "altitude": 226.52,
+    "timestamp": "2025-11-26T01:41:08.730573Z"
+  },
+  {
+    "temperature": 23.41,
+    "humidity": 37.71,
+    "pressure": 986.33,
+    "gas": 42442,
+    "altitude": 226.54,
+    "timestamp": "2025-11-26T01:41:20.198311Z"
+  },
+  {
+    "temperature": 23.41,
+    "humidity": 37.72,
+    "pressure": 986.33,
+    "gas": 42485,
+    "altitude": 226.55,
+    "timestamp": "2025-11-26T01:41:31.758454Z"
+  },
+  {
+    "temperature": 23.41,
+    "humidity": 37.69,
+    "pressure": 986.33,
+    "gas": 42272,
+    "altitude": 226.57,
+    "timestamp": "2025-11-26T01:41:43.251810Z"
+  },
+  {
+    "temperature": 23.41,
+    "humidity": 37.69,
+    "pressure": 986.33,
+    "gas": 42272,
+    "altitude": 226.59,
+    "timestamp": "2025-11-26T01:41:54.742756Z"
+  },
+  {
+    "temperature": 23.42,
+    "humidity": 37.7,
+    "pressure": 986.33,
+    "gas": 42314,
+    "altitude": 226.61,
+    "timestamp": "2025-11-26T01:42:06.175134Z"
+  },
+  {
+    "temperature": 23.42,
+    "humidity": 37.69,
+    "pressure": 986.32,
+    "gas": 42485,
+    "altitude": 226.7,
+    "timestamp": "2025-11-26T01:42:17.631129Z"
+  },
+  {
+    "temperature": 23.42,
+    "humidity": 37.69,
+    "pressure": 986.32,
+    "gas": 42357,
+    "altitude": 226.66,
+    "timestamp": "2025-11-26T01:42:29.133959Z"
+  },
+  {
+    "temperature": 23.42,
+    "humidity": 37.68,
+    "pressure": 986.32,
+    "gas": 42145,
+    "altitude": 226.66,
+    "timestamp": "2025-11-26T01:42:40.563803Z"
+  },
+  {
+    "temperature": 23.42,
+    "humidity": 37.67,
+    "pressure": 986.33,
+    "gas": 42188,
+    "altitude": 226.59,
+    "timestamp": "2025-11-26T01:42:52.017416Z"
+  },
+  {
+    "temperature": 23.41,
+    "humidity": 37.74,
+    "pressure": 986.34,
+    "gas": 42399,
+    "altitude": 226.51,
+    "timestamp": "2025-11-26T01:43:03.450419Z"
+  },
+  {
+    "temperature": 23.41,
+    "humidity": 37.82,
+    "pressure": 986.34,
+    "gas": 42272,
+    "altitude": 226.52,
+    "timestamp": "2025-11-26T01:43:15.037428Z"
+  },
+  {
+    "temperature": 23.41,
+    "humidity": 37.84,
+    "pressure": 986.33,
+    "gas": 41978,
+    "altitude": 226.62,
+    "timestamp": "2025-11-26T01:43:26.473633Z"
+  },
+  {
+    "temperature": 23.41,
+    "humidity": 37.84,
+    "pressure": 986.31,
+    "gas": 42188,
+    "altitude": 226.74,
+    "timestamp": "2025-11-26T01:43:37.920664Z"
+  },
+  {
+    "temperature": 23.41,
+    "humidity": 37.86,
+    "pressure": 986.31,
+    "gas": 41978,
+    "altitude": 226.75,
+    "timestamp": "2025-11-26T01:43:49.477948Z"
+  },
+  {
+    "temperature": 23.41,
+    "humidity": 37.86,
+    "pressure": 986.3,
+    "gas": 42145,
+    "altitude": 226.81,
+    "timestamp": "2025-11-26T01:44:00.972132Z"
+  },
+  {
+    "temperature": 23.41,
+    "humidity": 37.84,
+    "pressure": 986.3,
+    "gas": 41936,
+    "altitude": 226.87,
+    "timestamp": "2025-11-26T01:44:12.593309Z"
+  },
+  {
+    "temperature": 23.42,
+    "humidity": 37.83,
+    "pressure": 986.29,
+    "gas": 41853,
+    "altitude": 226.9,
+    "timestamp": "2025-11-26T01:44:24.107498Z"
+  },
+  {
+    "temperature": 23.42,
+    "humidity": 37.82,
+    "pressure": 986.28,
+    "gas": 42020,
+    "altitude": 226.96,
+    "timestamp": "2025-11-26T01:44:35.596934Z"
+  },
+  {
+    "temperature": 23.43,
+    "humidity": 37.82,
+    "pressure": 986.28,
+    "gas": 42020,
+    "altitude": 226.97,
+    "timestamp": "2025-11-26T01:44:47.140748Z"
+  },
+  {
+    "temperature": 23.44,
+    "humidity": 37.79,
+    "pressure": 986.28,
+    "gas": 42061,
+    "altitude": 226.97,
+    "timestamp": "2025-11-26T01:44:58.602425Z"
+  },
+  {
+    "temperature": 23.44,
+    "humidity": 37.76,
+    "pressure": 986.28,
+    "gas": 42230,
+    "altitude": 227.02,
+    "timestamp": "2025-11-26T01:45:10.085377Z"
+  },
+  {
+    "temperature": 23.44,
+    "humidity": 37.77,
+    "pressure": 986.28,
+    "gas": 41853,
+    "altitude": 226.98,
+    "timestamp": "2025-11-26T01:45:21.598123Z"
+  },
+  {
+    "temperature": 23.45,
+    "humidity": 37.79,
+    "pressure": 986.28,
+    "gas": 42103,
+    "altitude": 226.97,
+    "timestamp": "2025-11-26T01:45:33.072663Z"
+  },
+  {
+    "temperature": 23.45,
+    "humidity": 37.79,
+    "pressure": 986.28,
+    "gas": 41978,
+    "altitude": 226.99,
+    "timestamp": "2025-11-26T01:45:44.589399Z"
+  },
+  {
+    "temperature": 23.45,
+    "humidity": 37.8,
+    "pressure": 986.28,
+    "gas": 42020,
+    "altitude": 227.0,
+    "timestamp": "2025-11-26T01:45:56.054295Z"
+  },
+  {
+    "temperature": 23.45,
+    "humidity": 37.78,
+    "pressure": 986.28,
+    "gas": 41853,
+    "altitude": 227.04,
+    "timestamp": "2025-11-26T01:46:07.516341Z"
+  },
+  {
+    "temperature": 23.46,
+    "humidity": 37.76,
+    "pressure": 986.27,
+    "gas": 41936,
+    "altitude": 227.05,
+    "timestamp": "2025-11-26T01:46:18.994133Z"
+  },
+  {
+    "temperature": 23.46,
+    "humidity": 37.74,
+    "pressure": 986.28,
+    "gas": 42103,
+    "altitude": 227.02,
+    "timestamp": "2025-11-26T01:46:30.433452Z"
+  },
+  {
+    "temperature": 23.47,
+    "humidity": 37.75,
+    "pressure": 986.27,
+    "gas": 41895,
+    "altitude": 227.06,
+    "timestamp": "2025-11-26T01:46:41.934603Z"
+  },
+  {
+    "temperature": 23.47,
+    "humidity": 37.75,
+    "pressure": 986.28,
+    "gas": 41978,
+    "altitude": 227.04,
+    "timestamp": "2025-11-26T01:46:53.482055Z"
+  },
+  {
+    "temperature": 23.48,
+    "humidity": 37.75,
+    "pressure": 986.28,
+    "gas": 41812,
+    "altitude": 227.02,
+    "timestamp": "2025-11-26T01:47:05.041068Z"
+  },
+  {
+    "temperature": 23.71,
+    "humidity": 37.65,
+    "pressure": 986.32,
+    "gas": 38886,
+    "altitude": 226.66,
+    "timestamp": "2025-11-26T01:47:16.520470Z"
+  },
+  {
+    "temperature": 23.97,
+    "humidity": 37.11,
+    "pressure": 986.31,
+    "gas": 78988,
+    "altitude": 226.71,
+    "timestamp": "2025-11-26T01:47:27.988898Z"
+  },
+  {
+    "temperature": 23.93,
+    "humidity": 36.96,
+    "pressure": 986.26,
+    "gas": 87690,
+    "altitude": 227.14,
+    "timestamp": "2025-11-26T01:47:39.704006Z"
+  },
+  {
+    "temperature": 23.97,
+    "humidity": 36.86,
+    "pressure": 986.28,
+    "gas": 90706,
+    "altitude": 226.96,
+    "timestamp": "2025-11-26T01:47:51.217618Z"
+  },
+  {
+    "temperature": 23.85,
+    "humidity": 36.93,
+    "pressure": 986.26,
+    "gas": 22204,
+    "altitude": 227.21,
+    "timestamp": "2025-11-26T01:48:02.646027Z"
+  },
+  {
+    "temperature": 23.74,
+    "humidity": 36.92,
+    "pressure": 986.27,
+    "gas": 43268,
+    "altitude": 227.07,
+    "timestamp": "2025-11-26T01:48:14.099491Z"
+  },
+  {
+    "temperature": 23.76,
+    "humidity": 36.91,
+    "pressure": 986.27,
+    "gas": 60649,
+    "altitude": 227.06,
+    "timestamp": "2025-11-26T01:48:25.628477Z"
+  },
+  {
+    "temperature": 23.71,
+    "humidity": 36.89,
+    "pressure": 986.29,
+    "gas": 68979,
+    "altitude": 226.93,
+    "timestamp": "2025-11-26T01:48:37.071033Z"
+  },
+  {
+    "temperature": 23.78,
+    "humidity": 36.83,
+    "pressure": 986.26,
+    "gas": 77394,
+    "altitude": 227.15,
+    "timestamp": "2025-11-26T01:48:48.460967Z"
+  },
+  {
+    "temperature": 23.95,
+    "humidity": 36.88,
+    "pressure": 986.27,
+    "gas": 84106,
+    "altitude": 227.06,
+    "timestamp": "2025-11-26T01:48:59.911755Z"
+  },
+  {
+    "temperature": 23.78,
+    "humidity": 36.81,
+    "pressure": 986.27,
+    "gas": 85556,
+    "altitude": 227.08,
+    "timestamp": "2025-11-26T01:49:11.407514Z"
+  },
+  {
+    "temperature": 23.81,
+    "humidity": 36.81,
+    "pressure": 986.27,
+    "gas": 89742,
+    "altitude": 227.11,
+    "timestamp": "2025-11-26T01:49:22.857250Z"
+  },
+  {
+    "temperature": 23.75,
+    "humidity": 36.76,
+    "pressure": 986.25,
+    "gas": 89551,
+    "altitude": 227.24,
+    "timestamp": "2025-11-26T01:49:34.286806Z"
+  },
+  {
+    "temperature": 23.72,
+    "humidity": 36.73,
+    "pressure": 986.22,
+    "gas": 78111,
+    "altitude": 227.55,
+    "timestamp": "2025-11-26T01:49:45.780385Z"
+  },
+  {
+    "temperature": 23.92,
+    "humidity": 36.82,
+    "pressure": 986.22,
+    "gas": 94274,
+    "altitude": 227.5,
+    "timestamp": "2025-11-26T01:49:57.326824Z"
+  },
+  {
+    "temperature": 23.78,
+    "humidity": 36.72,
+    "pressure": 986.23,
+    "gas": 93833,
+    "altitude": 227.42,
+    "timestamp": "2025-11-26T01:50:08.750978Z"
+  },
+  {
+    "temperature": 24.15,
+    "humidity": 36.92,
+    "pressure": 986.43,
+    "gas": 94889,
+    "altitude": 225.74,
+    "timestamp": "2025-11-26T01:50:20.174511Z"
+  },
+  {
+    "temperature": 24.44,
+    "humidity": 37.34,
+    "pressure": 986.29,
+    "gas": 92699,
+    "altitude": 226.88,
+    "timestamp": "2025-11-26T01:50:31.669768Z"
+  },
+  {
+    "temperature": 25.17,
+    "humidity": 35.44,
+    "pressure": 986.23,
+    "gas": 94148,
+    "altitude": 227.43,
+    "timestamp": "2025-11-26T01:50:43.133812Z"
+  },
+  {
+    "temperature": 26.2,
+    "humidity": 34.0,
+    "pressure": 986.21,
+    "gas": 98110,
+    "altitude": 227.61,
+    "timestamp": "2025-11-26T01:50:54.798231Z"
+  },
+  {
+    "temperature": 26.75,
+    "humidity": 32.58,
+    "pressure": 986.22,
+    "gas": 94464,
+    "altitude": 227.53,
+    "timestamp": "2025-11-26T01:51:06.291839Z"
+  },
+  {
+    "temperature": 27.49,
+    "humidity": 31.49,
+    "pressure": 986.21,
+    "gas": 94697,
+    "altitude": 227.62,
+    "timestamp": "2025-11-26T01:51:17.798620Z"
+  },
+  {
+    "temperature": 27.95,
+    "humidity": 30.54,
+    "pressure": 986.22,
+    "gas": 93109,
+    "altitude": 227.52,
+    "timestamp": "2025-11-26T01:51:29.324788Z"
+  },
+  {
+    "temperature": 28.55,
+    "humidity": 29.75,
+    "pressure": 986.23,
+    "gas": 93750,
+    "altitude": 227.45,
+    "timestamp": "2025-11-26T01:51:40.818138Z"
+  },
+  {
+    "temperature": 29.19,
+    "humidity": 29.13,
+    "pressure": 986.24,
+    "gas": 99499,
+    "altitude": 227.34,
+    "timestamp": "2025-11-26T01:51:52.308794Z"
+  },
+  {
+    "temperature": 29.4,
+    "humidity": 28.46,
+    "pressure": 986.22,
+    "gas": 93938,
+    "altitude": 227.51,
+    "timestamp": "2025-11-26T01:52:03.804164Z"
+  },
+  {
+    "temperature": 29.85,
+    "humidity": 27.89,
+    "pressure": 986.2,
+    "gas": 95501,
+    "altitude": 227.64,
+    "timestamp": "2025-11-26T01:52:15.296090Z"
+  },
+  {
+    "temperature": 30.1,
+    "humidity": 27.35,
+    "pressure": 986.2,
+    "gas": 92193,
+    "altitude": 227.7,
+    "timestamp": "2025-11-26T01:52:26.769309Z"
+  },
+  {
+    "temperature": 30.51,
+    "humidity": 26.88,
+    "pressure": 986.22,
+    "gas": 94591,
+    "altitude": 227.55,
+    "timestamp": "2025-11-26T01:52:38.250849Z"
+  },
+  {
+    "temperature": 30.93,
+    "humidity": 26.57,
+    "pressure": 986.18,
+    "gas": 100208,
+    "altitude": 227.86,
+    "timestamp": "2025-11-26T01:52:49.771389Z"
+  },
+  {
+    "temperature": 31.0,
+    "humidity": 26.15,
+    "pressure": 986.19,
+    "gas": 93315,
+    "altitude": 227.78,
+    "timestamp": "2025-11-26T01:53:01.249267Z"
+  },
+  {
+    "temperature": 31.31,
+    "humidity": 25.87,
+    "pressure": 986.2,
+    "gas": 95663,
+    "altitude": 227.7,
+    "timestamp": "2025-11-26T01:53:12.680035Z"
+  },
+  {
+    "temperature": 31.43,
+    "humidity": 25.54,
+    "pressure": 986.18,
+    "gas": 91394,
+    "altitude": 227.88,
+    "timestamp": "2025-11-26T01:53:24.368667Z"
+  },
+  {
+    "temperature": 31.71,
+    "humidity": 25.24,
+    "pressure": 986.16,
+    "gas": 93833,
+    "altitude": 227.99,
+    "timestamp": "2025-11-26T01:53:35.860651Z"
+  },
+  {
+    "temperature": 32.06,
+    "humidity": 25.05,
+    "pressure": 986.17,
+    "gas": 97431,
+    "altitude": 227.92,
+    "timestamp": "2025-11-26T01:53:47.406344Z"
+  },
+  {
+    "temperature": 32.05,
+    "humidity": 29.8,
+    "pressure": 986.2,
+    "gas": 65856,
+    "altitude": 227.66,
+    "timestamp": "2025-11-26T01:53:58.920517Z"
+  },
+  {
+    "temperature": 31.9,
+    "humidity": 27.46,
+    "pressure": 986.2,
+    "gas": 93418,
+    "altitude": 227.68,
+    "timestamp": "2025-11-26T01:54:10.525564Z"
+  },
+  {
+    "temperature": 31.14,
+    "humidity": 26.14,
+    "pressure": 986.19,
+    "gas": 89172,
+    "altitude": 227.78,
+    "timestamp": "2025-11-26T01:54:22.019369Z"
+  },
+  {
+    "temperature": 30.06,
+    "humidity": 26.87,
+    "pressure": 986.16,
+    "gas": 93521,
+    "altitude": 227.99,
+    "timestamp": "2025-11-26T01:54:33.621518Z"
+  },
+  {
+    "temperature": 29.03,
+    "humidity": 28.05,
+    "pressure": 986.18,
+    "gas": 96983,
+    "altitude": 227.87,
+    "timestamp": "2025-11-26T01:54:45.046068Z"
+  },
+  {
+    "temperature": 28.05,
+    "humidity": 29.15,
+    "pressure": 986.16,
+    "gas": 92801,
+    "altitude": 228.04,
+    "timestamp": "2025-11-26T01:54:56.499590Z"
+  },
+  {
+    "temperature": 27.15,
+    "humidity": 30.3,
+    "pressure": 986.15,
+    "gas": 94485,
+    "altitude": 228.12,
+    "timestamp": "2025-11-26T01:55:08.012523Z"
+  },
+  {
+    "temperature": 26.51,
+    "humidity": 31.47,
+    "pressure": 986.13,
+    "gas": 100506,
+    "altitude": 228.27,
+    "timestamp": "2025-11-26T01:55:19.866857Z"
+  },
+  {
+    "temperature": 25.8,
+    "humidity": 32.35,
+    "pressure": 986.13,
+    "gas": 93211,
+    "altitude": 228.27,
+    "timestamp": "2025-11-26T01:55:31.339191Z"
+  },
+  {
+    "temperature": 25.23,
+    "humidity": 33.28,
+    "pressure": 986.14,
+    "gas": 94697,
+    "altitude": 228.22,
+    "timestamp": "2025-11-26T01:55:42.915451Z"
+  },
+  {
+    "temperature": 24.73,
+    "humidity": 34.08,
+    "pressure": 986.15,
+    "gas": 90609,
+    "altitude": 228.14,
+    "timestamp": "2025-11-26T01:55:54.374299Z"
+  },
+  {
+    "temperature": 24.34,
+    "humidity": 34.83,
+    "pressure": 986.16,
+    "gas": 93211,
+    "altitude": 228.03,
+    "timestamp": "2025-11-26T01:56:05.867142Z"
+  },
+  {
+    "temperature": 24.12,
+    "humidity": 35.58,
+    "pressure": 986.16,
+    "gas": 96983,
+    "altitude": 228.03,
+    "timestamp": "2025-11-26T01:56:17.416133Z"
+  },
+  {
+    "temperature": 23.67,
+    "humidity": 36.12,
+    "pressure": 986.17,
+    "gas": 91000,
+    "altitude": 227.97,
+    "timestamp": "2025-11-26T01:56:28.893894Z"
+  },
+  {
+    "temperature": 23.4,
+    "humidity": 36.74,
+    "pressure": 986.16,
+    "gas": 94782,
+    "altitude": 228.01,
+    "timestamp": "2025-11-26T01:56:40.283351Z"
+  },
+  {
+    "temperature": 23.1,
+    "humidity": 37.22,
+    "pressure": 986.15,
+    "gas": 88704,
+    "altitude": 228.07,
+    "timestamp": "2025-11-26T01:56:51.778454Z"
+  },
+  {
+    "temperature": 22.92,
+    "humidity": 37.7,
+    "pressure": 986.15,
+    "gas": 91792,
+    "altitude": 228.08,
+    "timestamp": "2025-11-26T01:57:03.191361Z"
+  },
+  {
+    "temperature": 22.7,
+    "humidity": 38.1,
+    "pressure": 986.15,
+    "gas": 86610,
+    "altitude": 228.1,
+    "timestamp": "2025-11-26T01:57:14.659075Z"
+  },
+  {
+    "temperature": 22.63,
+    "humidity": 38.31,
+    "pressure": 986.15,
+    "gas": 86788,
+    "altitude": 228.12,
+    "timestamp": "2025-11-26T01:57:25.932943Z"
+  },
+  {
+    "temperature": 22.45,
+    "humidity": 38.69,
+    "pressure": 986.15,
+    "gas": 86079,
+    "altitude": 228.1,
+    "timestamp": "2025-11-26T01:57:37.252415Z"
+  },
+  {
+    "temperature": 22.28,
+    "humidity": 39.03,
+    "pressure": 986.18,
+    "gas": 85383,
+    "altitude": 227.89,
+    "timestamp": "2025-11-26T01:57:48.521274Z"
+  },
+  {
+    "temperature": 22.17,
+    "humidity": 39.31,
+    "pressure": 986.16,
+    "gas": 84782,
+    "altitude": 228.0,
+    "timestamp": "2025-11-26T01:57:59.877113Z"
+  },
+  {
+    "temperature": 22.16,
+    "humidity": 39.46,
+    "pressure": 986.14,
+    "gas": 84782,
+    "altitude": 228.16,
+    "timestamp": "2025-11-26T01:58:11.170554Z"
+  },
+  {
+    "temperature": 22.04,
+    "humidity": 39.67,
+    "pressure": 986.15,
+    "gas": 83689,
+    "altitude": 228.13,
+    "timestamp": "2025-11-26T01:58:22.463684Z"
+  },
+  {
+    "temperature": 21.92,
+    "humidity": 39.88,
+    "pressure": 986.14,
+    "gas": 83772,
+    "altitude": 228.16,
+    "timestamp": "2025-11-26T01:58:33.768579Z"
+  },
+  {
+    "temperature": 21.84,
+    "humidity": 40.08,
+    "pressure": 986.15,
+    "gas": 82623,
+    "altitude": 228.09,
+    "timestamp": "2025-11-26T01:58:45.059565Z"
+  },
+  {
+    "temperature": 21.87,
+    "humidity": 40.2,
+    "pressure": 986.14,
+    "gas": 83112,
+    "altitude": 228.21,
+    "timestamp": "2025-11-26T01:58:56.304902Z"
+  },
+  {
+    "temperature": 21.79,
+    "humidity": 40.32,
+    "pressure": 986.18,
+    "gas": 82623,
+    "altitude": 227.84,
+    "timestamp": "2025-11-26T01:59:07.645228Z"
+  },
+  {
+    "temperature": 21.7,
+    "humidity": 40.47,
+    "pressure": 986.17,
+    "gas": 82061,
+    "altitude": 227.92,
+    "timestamp": "2025-11-26T01:59:18.892332Z"
+  },
+  {
+    "temperature": 21.66,
+    "humidity": 40.56,
+    "pressure": 986.16,
+    "gas": 81349,
+    "altitude": 228.04,
+    "timestamp": "2025-11-26T01:59:30.225677Z"
+  },
+  {
+    "temperature": 21.7,
+    "humidity": 40.61,
+    "pressure": 986.15,
+    "gas": 81427,
+    "altitude": 228.13,
+    "timestamp": "2025-11-26T01:59:41.524594Z"
+  },
+  {
+    "temperature": 21.65,
+    "humidity": 40.73,
+    "pressure": 986.16,
+    "gas": 80881,
+    "altitude": 227.99,
+    "timestamp": "2025-11-26T01:59:52.950151Z"
+  },
+  {
+    "temperature": 21.58,
+    "humidity": 40.82,
+    "pressure": 986.16,
+    "gas": 80189,
+    "altitude": 227.98,
+    "timestamp": "2025-11-26T02:00:04.414896Z"
+  },
+  {
+    "temperature": 21.54,
+    "humidity": 40.9,
+    "pressure": 986.18,
+    "gas": 79659,
+    "altitude": 227.85,
+    "timestamp": "2025-11-26T02:00:15.847151Z"
+  },
+  {
+    "temperature": 21.56,
+    "humidity": 40.93,
+    "pressure": 986.17,
+    "gas": 79210,
+    "altitude": 227.95,
+    "timestamp": "2025-11-26T02:00:27.142975Z"
+  },
+  {
+    "temperature": 21.58,
+    "humidity": 41.02,
+    "pressure": 986.15,
+    "gas": 78988,
+    "altitude": 228.13,
+    "timestamp": "2025-11-26T02:00:38.468072Z"
+  },
+  {
+    "temperature": 21.51,
+    "humidity": 41.1,
+    "pressure": 986.16,
+    "gas": 78547,
+    "altitude": 228.0,
+    "timestamp": "2025-11-26T02:00:49.758815Z"
+  },
+  {
+    "temperature": 21.47,
+    "humidity": 41.17,
+    "pressure": 986.16,
+    "gas": 77679,
+    "altitude": 228.02,
+    "timestamp": "2025-11-26T02:01:01.145149Z"
+  },
+  {
+    "temperature": 21.47,
+    "humidity": 41.23,
+    "pressure": 986.15,
+    "gas": 77679,
+    "altitude": 228.08,
+    "timestamp": "2025-11-26T02:01:12.682617Z"
+  },
+  {
+    "temperature": 21.52,
+    "humidity": 41.24,
+    "pressure": 986.13,
+    "gas": 77323,
+    "altitude": 228.32,
+    "timestamp": "2025-11-26T02:01:24.086106Z"
+  },
+  {
+    "temperature": 21.51,
+    "humidity": 41.26,
+    "pressure": 986.15,
+    "gas": 77252,
+    "altitude": 228.14,
+    "timestamp": "2025-11-26T02:01:35.365055Z"
+  },
+  {
+    "temperature": 21.44,
+    "humidity": 41.32,
+    "pressure": 986.14,
+    "gas": 76760,
+    "altitude": 228.17,
+    "timestamp": "2025-11-26T02:01:46.617455Z"
+  },
+  {
+    "temperature": 21.42,
+    "humidity": 41.34,
+    "pressure": 986.15,
+    "gas": 75931,
+    "altitude": 228.12,
+    "timestamp": "2025-11-26T02:01:57.848750Z"
+  },
+  {
+    "temperature": 21.48,
+    "humidity": 41.36,
+    "pressure": 986.14,
+    "gas": 75795,
+    "altitude": 228.21,
+    "timestamp": "2025-11-26T02:02:09.159781Z"
+  },
+  {
+    "temperature": 21.46,
+    "humidity": 41.39,
+    "pressure": 986.14,
+    "gas": 75659,
+    "altitude": 228.15,
+    "timestamp": "2025-11-26T02:02:20.396779Z"
+  },
+  {
+    "temperature": 21.41,
+    "humidity": 41.43,
+    "pressure": 986.15,
+    "gas": 75389,
+    "altitude": 228.14,
+    "timestamp": "2025-11-26T02:02:31.679027Z"
+  },
+  {
+    "temperature": 21.4,
+    "humidity": 41.45,
+    "pressure": 986.13,
+    "gas": 74987,
+    "altitude": 228.31,
+    "timestamp": "2025-11-26T02:02:43.016715Z"
+  },
+  {
+    "temperature": 21.46,
+    "humidity": 41.44,
+    "pressure": 986.11,
+    "gas": 74523,
+    "altitude": 228.44,
+    "timestamp": "2025-11-26T02:02:54.361330Z"
+  },
+  {
+    "temperature": 21.44,
+    "humidity": 41.46,
+    "pressure": 986.13,
+    "gas": 74130,
+    "altitude": 228.29,
+    "timestamp": "2025-11-26T02:03:05.688300Z"
+  },
+  {
+    "temperature": 21.39,
+    "humidity": 41.48,
+    "pressure": 986.14,
+    "gas": 73741,
+    "altitude": 228.19,
+    "timestamp": "2025-11-26T02:03:16.899676Z"
+  },
+  {
+    "temperature": 21.37,
+    "humidity": 41.5,
+    "pressure": 986.14,
+    "gas": 73421,
+    "altitude": 228.23,
+    "timestamp": "2025-11-26T02:03:28.179333Z"
+  },
+  {
+    "temperature": 21.43,
+    "humidity": 41.49,
+    "pressure": 986.13,
+    "gas": 73293,
+    "altitude": 228.26,
+    "timestamp": "2025-11-26T02:03:39.486589Z"
+  },
+  {
+    "temperature": 21.41,
+    "humidity": 41.5,
+    "pressure": 986.12,
+    "gas": 73039,
+    "altitude": 228.35,
+    "timestamp": "2025-11-26T02:03:50.738776Z"
+  },
+  {
+    "temperature": 21.37,
+    "humidity": 41.55,
+    "pressure": 986.12,
+    "gas": 72412,
+    "altitude": 228.36,
+    "timestamp": "2025-11-26T02:04:02.096778Z"
+  },
+  {
+    "temperature": 21.35,
+    "humidity": 41.58,
+    "pressure": 986.12,
+    "gas": 72165,
+    "altitude": 228.36,
+    "timestamp": "2025-11-26T02:04:13.466719Z"
+  },
+  {
+    "temperature": 21.43,
+    "humidity": 41.56,
+    "pressure": 986.12,
+    "gas": 71919,
+    "altitude": 228.39,
+    "timestamp": "2025-11-26T02:04:24.828227Z"
+  },
+  {
+    "temperature": 21.43,
+    "humidity": 41.58,
+    "pressure": 986.13,
+    "gas": 71796,
+    "altitude": 228.31,
+    "timestamp": "2025-11-26T02:04:36.117849Z"
+  },
+  {
+    "temperature": 21.37,
+    "humidity": 41.58,
+    "pressure": 986.12,
     "gas": 71191,
-    "altitude": 95.34,
-    "timestamp": "2025-11-06T03:28:18.328240Z"
+    "altitude": 228.33,
+    "timestamp": "2025-11-26T02:04:47.433682Z"
+  },
+  {
+    "temperature": 21.35,
+    "humidity": 41.58,
+    "pressure": 986.12,
+    "gas": 70951,
+    "altitude": 228.34,
+    "timestamp": "2025-11-26T02:04:58.661637Z"
+  },
+  {
+    "temperature": 21.42,
+    "humidity": 41.59,
+    "pressure": 986.12,
+    "gas": 71071,
+    "altitude": 228.4,
+    "timestamp": "2025-11-26T02:05:09.981553Z"
+  },
+  {
+    "temperature": 21.42,
+    "humidity": 41.61,
+    "pressure": 986.12,
+    "gas": 70418,
+    "altitude": 228.34,
+    "timestamp": "2025-11-26T02:05:21.313498Z"
+  },
+  {
+    "temperature": 21.36,
+    "humidity": 41.61,
+    "pressure": 986.12,
+    "gas": 69951,
+    "altitude": 228.39,
+    "timestamp": "2025-11-26T02:05:32.570731Z"
+  },
+  {
+    "temperature": 21.34,
+    "humidity": 41.63,
+    "pressure": 986.11,
+    "gas": 69778,
+    "altitude": 228.48,
+    "timestamp": "2025-11-26T02:05:43.944564Z"
+  },
+  {
+    "temperature": 21.39,
+    "humidity": 41.63,
+    "pressure": 986.1,
+    "gas": 69662,
+    "altitude": 228.49,
+    "timestamp": "2025-11-26T02:05:55.244835Z"
+  },
+  {
+    "temperature": 21.42,
+    "humidity": 41.66,
+    "pressure": 986.1,
+    "gas": 69262,
+    "altitude": 228.54,
+    "timestamp": "2025-11-26T02:06:06.532186Z"
+  },
+  {
+    "temperature": 21.36,
+    "humidity": 41.66,
+    "pressure": 986.1,
+    "gas": 69035,
+    "altitude": 228.57,
+    "timestamp": "2025-11-26T02:06:17.788380Z"
+  },
+  {
+    "temperature": 21.33,
+    "humidity": 41.67,
+    "pressure": 986.09,
+    "gas": 68586,
+    "altitude": 228.65,
+    "timestamp": "2025-11-26T02:06:29.042530Z"
+  },
+  {
+    "temperature": 21.4,
+    "humidity": 41.64,
+    "pressure": 986.09,
+    "gas": 68754,
+    "altitude": 228.63,
+    "timestamp": "2025-11-26T02:06:40.382700Z"
+  },
+  {
+    "temperature": 21.42,
+    "humidity": 41.68,
+    "pressure": 986.1,
+    "gas": 67979,
+    "altitude": 228.57,
+    "timestamp": "2025-11-26T02:06:51.652203Z"
+  },
+  {
+    "temperature": 21.35,
+    "humidity": 41.67,
+    "pressure": 986.1,
+    "gas": 67760,
+    "altitude": 228.54,
+    "timestamp": "2025-11-26T02:07:02.956979Z"
+  },
+  {
+    "temperature": 21.33,
+    "humidity": 41.7,
+    "pressure": 986.09,
+    "gas": 67924,
+    "altitude": 228.61,
+    "timestamp": "2025-11-26T02:07:14.224513Z"
+  },
+  {
+    "temperature": 21.4,
+    "humidity": 41.67,
+    "pressure": 986.1,
+    "gas": 67435,
+    "altitude": 228.56,
+    "timestamp": "2025-11-26T02:07:25.572577Z"
+  },
+  {
+    "temperature": 21.42,
+    "humidity": 41.69,
+    "pressure": 986.08,
+    "gas": 67274,
+    "altitude": 228.74,
+    "timestamp": "2025-11-26T02:07:36.918107Z"
+  },
+  {
+    "temperature": 21.35,
+    "humidity": 41.67,
+    "pressure": 986.08,
+    "gas": 67220,
+    "altitude": 228.74,
+    "timestamp": "2025-11-26T02:07:48.316345Z"
+  },
+  {
+    "temperature": 21.33,
+    "humidity": 41.7,
+    "pressure": 986.08,
+    "gas": 66901,
+    "altitude": 228.7,
+    "timestamp": "2025-11-26T02:07:59.647708Z"
+  },
+  {
+    "temperature": 21.36,
+    "humidity": 41.67,
+    "pressure": 986.08,
+    "gas": 66636,
+    "altitude": 228.73,
+    "timestamp": "2025-11-26T02:08:10.971141Z"
+  },
+  {
+    "temperature": 21.4,
+    "humidity": 41.71,
+    "pressure": 986.07,
+    "gas": 66270,
+    "altitude": 228.78,
+    "timestamp": "2025-11-26T02:08:22.160612Z"
+  },
+  {
+    "temperature": 21.34,
+    "humidity": 41.67,
+    "pressure": 986.08,
+    "gas": 67007,
+    "altitude": 228.71,
+    "timestamp": "2025-11-26T02:08:33.432175Z"
+  },
+  {
+    "temperature": 21.33,
+    "humidity": 41.65,
+    "pressure": 986.08,
+    "gas": 66114,
+    "altitude": 228.75,
+    "timestamp": "2025-11-26T02:08:44.665464Z"
+  },
+  {
+    "temperature": 21.39,
+    "humidity": 41.63,
+    "pressure": 986.08,
+    "gas": 66270,
+    "altitude": 228.72,
+    "timestamp": "2025-11-26T02:08:55.890539Z"
+  },
+  {
+    "temperature": 21.39,
+    "humidity": 41.63,
+    "pressure": 986.06,
+    "gas": 66062,
+    "altitude": 228.87,
+    "timestamp": "2025-11-26T02:09:07.258511Z"
+  },
+  {
+    "temperature": 21.34,
+    "humidity": 41.64,
+    "pressure": 986.05,
+    "gas": 65702,
+    "altitude": 228.92,
+    "timestamp": "2025-11-26T02:09:18.521378Z"
+  },
+  {
+    "temperature": 21.32,
+    "humidity": 41.64,
+    "pressure": 986.05,
+    "gas": 65498,
+    "altitude": 228.94,
+    "timestamp": "2025-11-26T02:09:29.787386Z"
+  },
+  {
+    "temperature": 21.4,
+    "humidity": 41.6,
+    "pressure": 986.05,
+    "gas": 65397,
+    "altitude": 228.97,
+    "timestamp": "2025-11-26T02:09:41.095026Z"
+  },
+  {
+    "temperature": 21.4,
+    "humidity": 41.6,
+    "pressure": 986.05,
+    "gas": 64994,
+    "altitude": 228.93,
+    "timestamp": "2025-11-26T02:09:52.434523Z"
+  },
+  {
+    "temperature": 21.35,
+    "humidity": 41.58,
+    "pressure": 986.06,
+    "gas": 64894,
+    "altitude": 228.92,
+    "timestamp": "2025-11-26T02:10:03.724488Z"
+  },
+  {
+    "temperature": 21.34,
+    "humidity": 41.57,
+    "pressure": 986.06,
+    "gas": 64695,
+    "altitude": 228.89,
+    "timestamp": "2025-11-26T02:10:14.969330Z"
+  },
+  {
+    "temperature": 21.42,
+    "humidity": 41.54,
+    "pressure": 986.06,
+    "gas": 64794,
+    "altitude": 228.91,
+    "timestamp": "2025-11-26T02:10:26.295761Z"
+  },
+  {
+    "temperature": 21.43,
+    "humidity": 41.53,
+    "pressure": 986.06,
+    "gas": 64448,
+    "altitude": 228.91,
+    "timestamp": "2025-11-26T02:10:37.582782Z"
+  },
+  {
+    "temperature": 21.38,
+    "humidity": 41.52,
+    "pressure": 986.03,
+    "gas": 64154,
+    "altitude": 229.13,
+    "timestamp": "2025-11-26T02:10:48.879505Z"
+  },
+  {
+    "temperature": 21.37,
+    "humidity": 41.49,
+    "pressure": 986.05,
+    "gas": 63911,
+    "altitude": 228.98,
+    "timestamp": "2025-11-26T02:11:00.062317Z"
+  },
+  {
+    "temperature": 21.47,
+    "humidity": 41.48,
+    "pressure": 986.06,
+    "gas": 63622,
+    "altitude": 228.88,
+    "timestamp": "2025-11-26T02:11:11.542491Z"
+  },
+  {
+    "temperature": 21.5,
+    "humidity": 41.45,
+    "pressure": 986.06,
+    "gas": 63959,
+    "altitude": 228.84,
+    "timestamp": "2025-11-26T02:11:22.859202Z"
+  },
+  {
+    "temperature": 21.44,
+    "humidity": 41.42,
+    "pressure": 986.05,
+    "gas": 63526,
+    "altitude": 228.92,
+    "timestamp": "2025-11-26T02:11:34.311344Z"
+  },
+  {
+    "temperature": 21.43,
+    "humidity": 41.38,
+    "pressure": 986.05,
+    "gas": 63051,
+    "altitude": 228.98,
+    "timestamp": "2025-11-26T02:11:45.596658Z"
+  },
+  {
+    "temperature": 21.48,
+    "humidity": 41.33,
+    "pressure": 986.05,
+    "gas": 63051,
+    "altitude": 228.96,
+    "timestamp": "2025-11-26T02:11:56.964348Z"
+  },
+  {
+    "temperature": 21.52,
+    "humidity": 41.31,
+    "pressure": 986.03,
+    "gas": 62863,
+    "altitude": 229.16,
+    "timestamp": "2025-11-26T02:12:08.320131Z"
+  },
+  {
+    "temperature": 21.48,
+    "humidity": 41.29,
+    "pressure": 986.03,
+    "gas": 62910,
+    "altitude": 229.12,
+    "timestamp": "2025-11-26T02:12:19.958652Z"
+  },
+  {
+    "temperature": 21.46,
+    "humidity": 41.29,
+    "pressure": 986.03,
+    "gas": 62630,
+    "altitude": 229.16,
+    "timestamp": "2025-11-26T02:12:31.504030Z"
+  },
+  {
+    "temperature": 21.46,
+    "humidity": 41.28,
+    "pressure": 986.04,
+    "gas": 62260,
+    "altitude": 229.08,
+    "timestamp": "2025-11-26T02:12:42.808783Z"
+  },
+  {
+    "temperature": 21.52,
+    "humidity": 41.27,
+    "pressure": 986.03,
+    "gas": 62123,
+    "altitude": 229.1,
+    "timestamp": "2025-11-26T02:12:54.173441Z"
+  },
+  {
+    "temperature": 21.55,
+    "humidity": 41.25,
+    "pressure": 986.02,
+    "gas": 62306,
+    "altitude": 229.2,
+    "timestamp": "2025-11-26T02:13:05.609858Z"
+  },
+  {
+    "temperature": 21.51,
+    "humidity": 41.27,
+    "pressure": 986.03,
+    "gas": 61849,
+    "altitude": 229.12,
+    "timestamp": "2025-11-26T02:13:17.076760Z"
+  },
+  {
+    "temperature": 21.47,
+    "humidity": 41.26,
+    "pressure": 986.03,
+    "gas": 61624,
+    "altitude": 229.12,
+    "timestamp": "2025-11-26T02:13:28.531827Z"
+  },
+  {
+    "temperature": 21.47,
+    "humidity": 41.28,
+    "pressure": 986.02,
+    "gas": 61177,
+    "altitude": 229.19,
+    "timestamp": "2025-11-26T02:13:39.781851Z"
+  },
+  {
+    "temperature": 21.55,
+    "humidity": 41.25,
+    "pressure": 986.03,
+    "gas": 61444,
+    "altitude": 229.13,
+    "timestamp": "2025-11-26T02:13:51.121273Z"
+  },
+  {
+    "temperature": 21.54,
+    "humidity": 41.27,
+    "pressure": 986.03,
+    "gas": 61399,
+    "altitude": 229.11,
+    "timestamp": "2025-11-26T02:14:02.516528Z"
+  },
+  {
+    "temperature": 21.48,
+    "humidity": 41.27,
+    "pressure": 986.02,
+    "gas": 60824,
+    "altitude": 229.18,
+    "timestamp": "2025-11-26T02:14:13.825324Z"
+  },
+  {
+    "temperature": 21.46,
+    "humidity": 41.3,
+    "pressure": 986.03,
+    "gas": 60389,
+    "altitude": 229.14,
+    "timestamp": "2025-11-26T02:14:25.196239Z"
+  },
+  {
+    "temperature": 21.5,
+    "humidity": 41.3,
+    "pressure": 986.03,
+    "gas": 60606,
+    "altitude": 229.16,
+    "timestamp": "2025-11-26T02:14:36.522035Z"
+  },
+  {
+    "temperature": 21.54,
+    "humidity": 41.33,
+    "pressure": 986.02,
+    "gas": 59874,
+    "altitude": 229.24,
+    "timestamp": "2025-11-26T02:14:47.814095Z"
+  },
+  {
+    "temperature": 21.48,
+    "humidity": 41.36,
+    "pressure": 986.03,
+    "gas": 59494,
+    "altitude": 229.11,
+    "timestamp": "2025-11-26T02:14:59.114123Z"
+  },
+  {
+    "temperature": 21.45,
+    "humidity": 41.38,
+    "pressure": 986.03,
+    "gas": 59202,
+    "altitude": 229.14,
+    "timestamp": "2025-11-26T02:15:10.405061Z"
+  },
+  {
+    "temperature": 21.49,
+    "humidity": 41.35,
+    "pressure": 986.02,
+    "gas": 59078,
+    "altitude": 229.18,
+    "timestamp": "2025-11-26T02:15:21.698661Z"
+  },
+  {
+    "temperature": 21.52,
+    "humidity": 41.37,
+    "pressure": 986.02,
+    "gas": 59244,
+    "altitude": 229.25,
+    "timestamp": "2025-11-26T02:15:32.939478Z"
+  },
+  {
+    "temperature": 21.47,
+    "humidity": 41.38,
+    "pressure": 986.03,
+    "gas": 58667,
+    "altitude": 229.15,
+    "timestamp": "2025-11-26T02:15:44.241170Z"
+  },
+  {
+    "temperature": 21.45,
+    "humidity": 41.41,
+    "pressure": 986.02,
+    "gas": 58464,
+    "altitude": 229.23,
+    "timestamp": "2025-11-26T02:15:55.424042Z"
+  },
+  {
+    "temperature": 21.51,
+    "humidity": 41.4,
+    "pressure": 986.02,
+    "gas": 58464,
+    "altitude": 229.25,
+    "timestamp": "2025-11-26T02:16:06.730697Z"
+  },
+  {
+    "temperature": 21.54,
+    "humidity": 41.4,
+    "pressure": 986.02,
+    "gas": 58222,
+    "altitude": 229.25,
+    "timestamp": "2025-11-26T02:16:17.922565Z"
+  },
+  {
+    "temperature": 21.46,
+    "humidity": 41.42,
+    "pressure": 986.02,
+    "gas": 57625,
+    "altitude": 229.24,
+    "timestamp": "2025-11-26T02:16:29.145042Z"
+  },
+  {
+    "temperature": 21.44,
+    "humidity": 41.4,
+    "pressure": 986.02,
+    "gas": 57823,
+    "altitude": 229.25,
+    "timestamp": "2025-11-26T02:16:40.450017Z"
+  },
+  {
+    "temperature": 21.52,
+    "humidity": 41.38,
+    "pressure": 986.01,
+    "gas": 57823,
+    "altitude": 229.27,
+    "timestamp": "2025-11-26T02:16:51.693915Z"
+  },
+  {
+    "temperature": 21.5,
+    "humidity": 41.38,
+    "pressure": 986.01,
+    "gas": 57704,
+    "altitude": 229.29,
+    "timestamp": "2025-11-26T02:17:03.021066Z"
+  },
+  {
+    "temperature": 21.45,
+    "humidity": 41.39,
+    "pressure": 985.99,
+    "gas": 57468,
+    "altitude": 229.49,
+    "timestamp": "2025-11-26T02:17:14.276126Z"
+  },
+  {
+    "temperature": 21.43,
+    "humidity": 41.4,
+    "pressure": 986.0,
+    "gas": 57196,
+    "altitude": 229.41,
+    "timestamp": "2025-11-26T02:17:25.588098Z"
+  },
+  {
+    "temperature": 21.52,
+    "humidity": 41.39,
+    "pressure": 985.99,
+    "gas": 57118,
+    "altitude": 229.51,
+    "timestamp": "2025-11-26T02:17:36.903291Z"
+  },
+  {
+    "temperature": 21.5,
+    "humidity": 41.41,
+    "pressure": 985.99,
+    "gas": 57157,
+    "altitude": 229.44,
+    "timestamp": "2025-11-26T02:17:48.275389Z"
+  },
+  {
+    "temperature": 21.45,
+    "humidity": 41.4,
+    "pressure": 986.0,
+    "gas": 57080,
+    "altitude": 229.42,
+    "timestamp": "2025-11-26T02:17:59.486681Z"
+  },
+  {
+    "temperature": 21.43,
+    "humidity": 41.4,
+    "pressure": 986.0,
+    "gas": 57002,
+    "altitude": 229.4,
+    "timestamp": "2025-11-26T02:18:10.731862Z"
+  },
+  {
+    "temperature": 21.48,
+    "humidity": 41.44,
+    "pressure": 985.99,
+    "gas": 56620,
+    "altitude": 229.46,
+    "timestamp": "2025-11-26T02:18:23.059875Z"
+  },
+  {
+    "temperature": 21.48,
+    "humidity": 41.41,
+    "pressure": 985.98,
+    "gas": 56811,
+    "altitude": 229.55,
+    "timestamp": "2025-11-26T02:18:34.276043Z"
+  },
+  {
+    "temperature": 21.51,
+    "humidity": 41.44,
+    "pressure": 985.99,
+    "gas": 56544,
+    "altitude": 229.48,
+    "timestamp": "2025-11-26T02:18:45.771294Z"
+  },
+  {
+    "temperature": 21.45,
+    "humidity": 41.49,
+    "pressure": 985.97,
+    "gas": 56168,
+    "altitude": 229.64,
+    "timestamp": "2025-11-26T02:18:56.982126Z"
+  },
+  {
+    "temperature": 21.41,
+    "humidity": 41.54,
+    "pressure": 985.98,
+    "gas": 56018,
+    "altitude": 229.55,
+    "timestamp": "2025-11-26T02:19:08.188345Z"
+  },
+  {
+    "temperature": 21.46,
+    "humidity": 41.53,
+    "pressure": 985.98,
+    "gas": 56056,
+    "altitude": 229.51,
+    "timestamp": "2025-11-26T02:19:19.369574Z"
+  },
+  {
+    "temperature": 21.49,
+    "humidity": 41.55,
+    "pressure": 985.97,
+    "gas": 56168,
+    "altitude": 229.61,
+    "timestamp": "2025-11-26T02:19:30.664463Z"
+  },
+  {
+    "temperature": 21.42,
+    "humidity": 41.57,
+    "pressure": 985.98,
+    "gas": 55759,
+    "altitude": 229.58,
+    "timestamp": "2025-11-26T02:19:42.033719Z"
+  },
+  {
+    "temperature": 21.4,
+    "humidity": 41.58,
+    "pressure": 985.97,
+    "gas": 55393,
+    "altitude": 229.63,
+    "timestamp": "2025-11-26T02:19:53.363304Z"
+  },
+  {
+    "temperature": 21.45,
+    "humidity": 41.58,
+    "pressure": 985.97,
+    "gas": 55466,
+    "altitude": 229.68,
+    "timestamp": "2025-11-26T02:20:04.673745Z"
+  },
+  {
+    "temperature": 21.49,
+    "humidity": 41.6,
+    "pressure": 985.95,
+    "gas": 55284,
+    "altitude": 229.79,
+    "timestamp": "2025-11-26T02:20:15.969008Z"
+  },
+  {
+    "temperature": 21.42,
+    "humidity": 41.62,
+    "pressure": 985.95,
+    "gas": 55104,
+    "altitude": 229.85,
+    "timestamp": "2025-11-26T02:20:27.205009Z"
+  },
+  {
+    "temperature": 21.39,
+    "humidity": 41.6,
+    "pressure": 985.94,
+    "gas": 54817,
+    "altitude": 229.87,
+    "timestamp": "2025-11-26T02:20:38.522300Z"
+  },
+  {
+    "temperature": 21.44,
+    "humidity": 41.6,
+    "pressure": 985.95,
+    "gas": 54817,
+    "altitude": 229.84,
+    "timestamp": "2025-11-26T02:20:49.812948Z"
+  },
+  {
+    "temperature": 21.48,
+    "humidity": 41.62,
+    "pressure": 985.94,
+    "gas": 54960,
+    "altitude": 229.86,
+    "timestamp": "2025-11-26T02:21:01.086721Z"
+  },
+  {
+    "temperature": 21.41,
+    "humidity": 41.64,
+    "pressure": 985.94,
+    "gas": 54960,
+    "altitude": 229.94,
+    "timestamp": "2025-11-26T02:21:12.514923Z"
+  },
+  {
+    "temperature": 21.39,
+    "humidity": 41.64,
+    "pressure": 985.94,
+    "gas": 54288,
+    "altitude": 229.94,
+    "timestamp": "2025-11-26T02:21:23.849997Z"
+  },
+  {
+    "temperature": 21.41,
+    "humidity": 41.63,
+    "pressure": 985.95,
+    "gas": 54428,
+    "altitude": 229.82,
+    "timestamp": "2025-11-26T02:21:35.102349Z"
+  },
+  {
+    "temperature": 21.45,
+    "humidity": 41.66,
+    "pressure": 985.91,
+    "gas": 54253,
+    "altitude": 230.13,
+    "timestamp": "2025-11-26T02:21:46.588600Z"
+  },
+  {
+    "temperature": 21.41,
+    "humidity": 41.66,
+    "pressure": 985.92,
+    "gas": 54219,
+    "altitude": 230.04,
+    "timestamp": "2025-11-26T02:21:57.885368Z"
+  },
+  {
+    "temperature": 21.38,
+    "humidity": 41.68,
+    "pressure": 985.92,
+    "gas": 53941,
+    "altitude": 230.05,
+    "timestamp": "2025-11-26T02:22:09.155969Z"
+  },
+  {
+    "temperature": 21.38,
+    "humidity": 41.68,
+    "pressure": 985.91,
+    "gas": 53497,
+    "altitude": 230.15,
+    "timestamp": "2025-11-26T02:22:20.722409Z"
+  },
+  {
+    "temperature": 21.46,
+    "humidity": 41.66,
+    "pressure": 985.9,
+    "gas": 53941,
+    "altitude": 230.23,
+    "timestamp": "2025-11-26T02:22:31.914724Z"
+  },
+  {
+    "temperature": 21.43,
+    "humidity": 41.64,
+    "pressure": 985.91,
+    "gas": 53667,
+    "altitude": 230.14,
+    "timestamp": "2025-11-26T02:22:43.240360Z"
+  },
+  {
+    "temperature": 21.38,
+    "humidity": 41.65,
+    "pressure": 985.91,
+    "gas": 53463,
+    "altitude": 230.16,
+    "timestamp": "2025-11-26T02:22:54.457283Z"
+  },
+  {
+    "temperature": 21.37,
+    "humidity": 41.66,
+    "pressure": 985.91,
+    "gas": 53260,
+    "altitude": 230.18,
+    "timestamp": "2025-11-26T02:23:05.788752Z"
+  },
+  {
+    "temperature": 21.44,
+    "humidity": 41.67,
+    "pressure": 985.9,
+    "gas": 53328,
+    "altitude": 230.22,
+    "timestamp": "2025-11-26T02:23:17.038863Z"
+  },
+  {
+    "temperature": 21.41,
+    "humidity": 41.66,
+    "pressure": 985.91,
+    "gas": 53328,
+    "altitude": 230.16,
+    "timestamp": "2025-11-26T02:23:28.326268Z"
+  },
+  {
+    "temperature": 21.37,
+    "humidity": 41.66,
+    "pressure": 985.9,
+    "gas": 53059,
+    "altitude": 230.2,
+    "timestamp": "2025-11-26T02:23:39.603512Z"
+  },
+  {
+    "temperature": 21.37,
+    "humidity": 41.66,
+    "pressure": 985.88,
+    "gas": 52893,
+    "altitude": 230.37,
+    "timestamp": "2025-11-26T02:23:50.982454Z"
+  },
+  {
+    "temperature": 21.44,
+    "humidity": 41.67,
+    "pressure": 985.87,
+    "gas": 52893,
+    "altitude": 230.49,
+    "timestamp": "2025-11-26T02:24:02.313273Z"
+  },
+  {
+    "temperature": 21.42,
+    "humidity": 41.67,
+    "pressure": 985.88,
+    "gas": 52959,
+    "altitude": 230.43,
+    "timestamp": "2025-11-26T02:24:13.692228Z"
+  },
+  {
+    "temperature": 21.37,
+    "humidity": 41.69,
+    "pressure": 985.86,
+    "gas": 52596,
+    "altitude": 230.56,
+    "timestamp": "2025-11-26T02:24:25.517605Z"
+  },
+  {
+    "temperature": 21.35,
+    "humidity": 41.67,
+    "pressure": 985.89,
+    "gas": 52629,
+    "altitude": 230.35,
+    "timestamp": "2025-11-26T02:24:37.828241Z"
+  },
+  {
+    "temperature": 21.35,
+    "humidity": 41.68,
+    "pressure": 985.88,
+    "gas": 52695,
+    "altitude": 230.39,
+    "timestamp": "2025-11-26T02:24:49.319765Z"
+  },
+  {
+    "temperature": 21.34,
+    "humidity": 41.7,
+    "pressure": 985.87,
+    "gas": 52400,
+    "altitude": 230.48,
+    "timestamp": "2025-11-26T02:25:00.846479Z"
+  },
+  {
+    "temperature": 21.34,
+    "humidity": 41.71,
+    "pressure": 985.87,
+    "gas": 52368,
+    "altitude": 230.47,
+    "timestamp": "2025-11-26T02:25:12.248287Z"
+  },
+  {
+    "temperature": 21.41,
+    "humidity": 41.69,
+    "pressure": 985.84,
+    "gas": 52433,
+    "altitude": 230.73,
+    "timestamp": "2025-11-26T02:25:23.740840Z"
+  },
+  {
+    "temperature": 21.42,
+    "humidity": 41.7,
+    "pressure": 985.83,
+    "gas": 52013,
+    "altitude": 230.83,
+    "timestamp": "2025-11-26T02:25:35.136654Z"
+  },
+  {
+    "temperature": 21.35,
+    "humidity": 41.7,
+    "pressure": 985.84,
+    "gas": 51981,
+    "altitude": 230.71,
+    "timestamp": "2025-11-26T02:25:46.491995Z"
+  },
+  {
+    "temperature": 21.33,
+    "humidity": 41.7,
+    "pressure": 985.83,
+    "gas": 51662,
+    "altitude": 230.8,
+    "timestamp": "2025-11-26T02:25:58.015775Z"
+  },
+  {
+    "temperature": 21.33,
+    "humidity": 41.72,
+    "pressure": 985.83,
+    "gas": 51599,
+    "altitude": 230.81,
+    "timestamp": "2025-11-26T02:26:09.468310Z"
+  },
+  {
+    "temperature": 21.4,
+    "humidity": 41.7,
+    "pressure": 985.82,
+    "gas": 51821,
+    "altitude": 230.96,
+    "timestamp": "2025-11-26T02:26:21.016576Z"
+  },
+  {
+    "temperature": 21.42,
+    "humidity": 41.7,
+    "pressure": 985.83,
+    "gas": 51631,
+    "altitude": 230.87,
+    "timestamp": "2025-11-26T02:26:32.402190Z"
+  },
+  {
+    "temperature": 21.35,
+    "humidity": 41.69,
+    "pressure": 985.83,
+    "gas": 51411,
+    "altitude": 230.87,
+    "timestamp": "2025-11-26T02:26:43.915315Z"
+  },
+  {
+    "temperature": 21.33,
+    "humidity": 41.71,
+    "pressure": 985.83,
+    "gas": 51254,
+    "altitude": 230.82,
+    "timestamp": "2025-11-26T02:26:55.196092Z"
+  },
+  {
+    "temperature": 21.33,
+    "humidity": 41.71,
+    "pressure": 985.84,
+    "gas": 51348,
+    "altitude": 230.76,
+    "timestamp": "2025-11-26T02:27:06.669417Z"
+  },
+  {
+    "temperature": 21.39,
+    "humidity": 41.7,
+    "pressure": 985.82,
+    "gas": 51130,
+    "altitude": 230.88,
+    "timestamp": "2025-11-26T02:27:18.056259Z"
+  },
+  {
+    "temperature": 21.38,
+    "humidity": 41.71,
+    "pressure": 985.83,
+    "gas": 51068,
+    "altitude": 230.87,
+    "timestamp": "2025-11-26T02:27:29.412508Z"
+  },
+  {
+    "temperature": 21.33,
+    "humidity": 41.7,
+    "pressure": 985.8,
+    "gas": 51130,
+    "altitude": 231.07,
+    "timestamp": "2025-11-26T02:27:40.601061Z"
+  },
+  {
+    "temperature": 21.32,
+    "humidity": 41.71,
+    "pressure": 985.8,
+    "gas": 50761,
+    "altitude": 231.06,
+    "timestamp": "2025-11-26T02:27:51.859228Z"
+  },
+  {
+    "temperature": 21.39,
+    "humidity": 41.7,
+    "pressure": 985.8,
+    "gas": 50914,
+    "altitude": 231.06,
+    "timestamp": "2025-11-26T02:28:03.199248Z"
+  },
+  {
+    "temperature": 21.37,
+    "humidity": 41.68,
+    "pressure": 985.8,
+    "gas": 50822,
+    "altitude": 231.05,
+    "timestamp": "2025-11-26T02:28:14.522968Z"
+  },
+  {
+    "temperature": 21.32,
+    "humidity": 41.67,
+    "pressure": 985.78,
+    "gas": 50578,
+    "altitude": 231.24,
+    "timestamp": "2025-11-26T02:28:25.923056Z"
+  },
+  {
+    "temperature": 21.31,
+    "humidity": 41.66,
+    "pressure": 985.78,
+    "gas": 50639,
+    "altitude": 231.24,
+    "timestamp": "2025-11-26T02:28:37.223421Z"
+  },
+  {
+    "temperature": 21.38,
+    "humidity": 41.63,
+    "pressure": 985.79,
+    "gas": 50883,
+    "altitude": 231.16,
+    "timestamp": "2025-11-26T02:28:48.531773Z"
+  },
+  {
+    "temperature": 21.4,
+    "humidity": 41.64,
+    "pressure": 985.78,
+    "gas": 50792,
+    "altitude": 231.24,
+    "timestamp": "2025-11-26T02:29:00.000561Z"
+  },
+  {
+    "temperature": 21.34,
+    "humidity": 41.64,
+    "pressure": 985.76,
+    "gas": 50578,
+    "altitude": 231.44,
+    "timestamp": "2025-11-26T02:29:11.474951Z"
+  },
+  {
+    "temperature": 21.31,
+    "humidity": 41.62,
+    "pressure": 985.76,
+    "gas": 50518,
+    "altitude": 231.45,
+    "timestamp": "2025-11-26T02:29:22.889835Z"
+  },
+  {
+    "temperature": 21.31,
+    "humidity": 41.62,
+    "pressure": 985.76,
+    "gas": 50158,
+    "altitude": 231.41,
+    "timestamp": "2025-11-26T02:29:34.567475Z"
+  },
+  {
+    "temperature": 21.33,
+    "humidity": 41.6,
+    "pressure": 985.77,
+    "gas": 50039,
+    "altitude": 231.37,
+    "timestamp": "2025-11-26T02:29:46.248904Z"
+  },
+  {
+    "temperature": 21.39,
+    "humidity": 41.56,
+    "pressure": 985.74,
+    "gas": 50307,
+    "altitude": 231.59,
+    "timestamp": "2025-11-26T02:29:57.672749Z"
+  },
+  {
+    "temperature": 21.4,
+    "humidity": 41.55,
+    "pressure": 985.73,
+    "gas": 50039,
+    "altitude": 231.71,
+    "timestamp": "2025-11-26T02:30:09.053758Z"
+  },
+  {
+    "temperature": 21.36,
+    "humidity": 41.51,
+    "pressure": 985.73,
+    "gas": 50068,
+    "altitude": 231.64,
+    "timestamp": "2025-11-26T02:30:20.793360Z"
+  },
+  {
+    "temperature": 21.35,
+    "humidity": 41.49,
+    "pressure": 985.73,
+    "gas": 49773,
+    "altitude": 231.67,
+    "timestamp": "2025-11-26T02:30:32.508664Z"
+  },
+  {
+    "temperature": 21.35,
+    "humidity": 41.46,
+    "pressure": 985.73,
+    "gas": 49714,
+    "altitude": 231.7,
+    "timestamp": "2025-11-26T02:30:44.342193Z"
+  },
+  {
+    "temperature": 21.37,
+    "humidity": 41.44,
+    "pressure": 985.73,
+    "gas": 49773,
+    "altitude": 231.69,
+    "timestamp": "2025-11-26T02:30:56.135616Z"
+  },
+  {
+    "temperature": 21.39,
+    "humidity": 41.41,
+    "pressure": 985.71,
+    "gas": 49539,
+    "altitude": 231.82,
+    "timestamp": "2025-11-26T02:31:07.781265Z"
+  },
+  {
+    "temperature": 21.44,
+    "humidity": 41.41,
+    "pressure": 985.72,
+    "gas": 49394,
+    "altitude": 231.76,
+    "timestamp": "2025-11-26T02:31:19.575723Z"
+  },
+  {
+    "temperature": 21.49,
+    "humidity": 41.36,
+    "pressure": 985.7,
+    "gas": 49394,
+    "altitude": 231.9,
+    "timestamp": "2025-11-26T02:31:31.038290Z"
+  },
+  {
+    "temperature": 21.51,
+    "humidity": 41.32,
+    "pressure": 985.71,
+    "gas": 49250,
+    "altitude": 231.81,
+    "timestamp": "2025-11-26T02:31:42.846764Z"
+  },
+  {
+    "temperature": 21.48,
+    "humidity": 41.3,
+    "pressure": 985.71,
+    "gas": 49481,
+    "altitude": 231.83,
+    "timestamp": "2025-11-26T02:31:54.723290Z"
+  },
+  {
+    "temperature": 21.47,
+    "humidity": 41.27,
+    "pressure": 985.7,
+    "gas": 49078,
+    "altitude": 231.94,
+    "timestamp": "2025-11-26T02:32:06.415294Z"
+  },
+  {
+    "temperature": 21.46,
+    "humidity": 41.25,
+    "pressure": 985.71,
+    "gas": 49336,
+    "altitude": 231.88,
+    "timestamp": "2025-11-26T02:32:18.410909Z"
+  },
+  {
+    "temperature": 21.46,
+    "humidity": 41.24,
+    "pressure": 985.7,
+    "gas": 49250,
+    "altitude": 231.93,
+    "timestamp": "2025-11-26T02:32:30.253108Z"
+  },
+  {
+    "temperature": 21.46,
+    "humidity": 41.22,
+    "pressure": 985.7,
+    "gas": 49193,
+    "altitude": 231.97,
+    "timestamp": "2025-11-26T02:32:42.172740Z"
+  },
+  {
+    "temperature": 21.46,
+    "humidity": 41.21,
+    "pressure": 985.7,
+    "gas": 48964,
+    "altitude": 231.98,
+    "timestamp": "2025-11-26T02:32:53.957462Z"
+  },
+  {
+    "temperature": 21.45,
+    "humidity": 41.19,
+    "pressure": 985.68,
+    "gas": 49164,
+    "altitude": 232.11,
+    "timestamp": "2025-11-26T02:33:05.664298Z"
   }
 ]
