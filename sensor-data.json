@@ -1,13 +1,5 @@
 [
   {
-    "temperature": 7.48,
-    "humidity": 42.34,
-    "pressure": 986.86,
-    "gas": 4830,
-    "altitude": 222.07,
-    "timestamp": "2025-11-26T16:10:03.576558Z"
-  },
-  {
     "temperature": 7.46,
     "humidity": 42.37,
     "pressure": 986.86,
@@ -3998,5 +3990,13 @@
     "gas": 14527,
     "altitude": 216.89,
     "timestamp": "2025-11-26T17:46:55.235002Z"
+  },
+  {
+    "temperature": 7.49,
+    "humidity": 41.14,
+    "pressure": 987.45,
+    "gas": 14487,
+    "altitude": 217.06,
+    "timestamp": "2025-11-26T17:47:06.728698Z"
   }
 ]
