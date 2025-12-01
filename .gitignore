@@ -3,4 +3,7 @@ node_modules/
 .env.local
 .vercel
 *.log
+*credentials*.json
+*service-account*.json
+sheetsapi*.json
 
