@@ -35,3 +35,8 @@ echo "4. Enable on boot: sudo systemctl enable mystreamer.service"
 echo ""
 echo "⚠️  Note: Make sure CAMERA_INDICES in pi_app.py matches your camera setup!"
 
+
+
+
+
+

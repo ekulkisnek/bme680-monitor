@@ -624,3 +624,8 @@ updateFrame(); // Initial load
 - Consider switching to snapshot API if real-time isn't critical
 - Much simpler, works perfectly with Vercel free tier
 
+
+
+
+
+

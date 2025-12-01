@@ -18,7 +18,31 @@ export default async function handler(req, res) {
     const GITHUB_FILE = 'sensor-data.json';
     const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 
-    // Option 1: Try GitHub storage (FREE and persistent!)
+    // PRIORITY 1: Try Vercel KV first (real-time data, instant access)
+    if (process.env.KV_REST_API_URL && process.env.KV_REST_API_TOKEN) {
+      try {
+        const { createClient } = await import('@vercel/kv');
+        const kv = createClient({
+          url: process.env.KV_REST_API_URL,
+          token: process.env.KV_REST_API_TOKEN,
+        });
+        
+        readings = await kv.get('bme680_readings') || [];
+        
+        if (!Array.isArray(readings)) {
+          readings = [];
+        }
+        
+        if (readings.length > 0) {
+          storageType = 'kv';
+          console.log(`Retrieved ${readings.length} readings from KV (real-time)`);
+        }
+      } catch (kvError) {
+        console.error('KV retrieval error:', kvError.message);
+      }
+    }
+    
+    // PRIORITY 2: Fallback to GitHub storage (backup/archival)
     // First try with token if available, then fallback to public access
     try {
       let response;
@@ -58,42 +82,28 @@ export default async function handler(req, res) {
           content = await response.text();
         }
         
-        readings = JSON.parse(content);
+        const githubReadings = JSON.parse(content);
         
-        if (!Array.isArray(readings)) {
-          readings = [];
+        if (Array.isArray(githubReadings) && githubReadings.length > 0) {
+          // Only use GitHub if KV didn't have data, or merge if needed
+          if (readings.length === 0) {
+            readings = githubReadings;
+            storageType = 'github';
+            console.log(`Retrieved ${readings.length} readings from GitHub (backup)`);
+          } else {
+            // KV has data, GitHub is just backup - use KV data
+            console.log(`Using KV data (${readings.length} readings), GitHub backup available`);
+          }
         }
-        
-        storageType = 'github';
-        console.log(`Retrieved ${readings.length} readings from GitHub`);
       } else if (response.status === 404) {
-        // File doesn't exist yet, return empty array
-        console.log('GitHub file not found yet, returning empty array');
+        // File doesn't exist yet, that's okay if we have KV data
+        if (readings.length === 0) {
+          console.log('No data found in KV or GitHub');
+        }
       }
     } catch (githubError) {
       console.error('GitHub retrieval error:', githubError.message);
-    }
-    
-    // Option 2: Try Vercel KV if configured
-    if (readings.length === 0 && process.env.KV_REST_API_URL && process.env.KV_REST_API_TOKEN) {
-      try {
-        const { createClient } = await import('@vercel/kv');
-        const kv = createClient({
-          url: process.env.KV_REST_API_URL,
-          token: process.env.KV_REST_API_TOKEN,
-        });
-        
-        readings = await kv.get('bme680_readings') || [];
-        
-        if (!Array.isArray(readings)) {
-          readings = [];
-        }
-        
-        storageType = 'kv';
-        console.log(`Retrieved ${readings.length} readings from KV`);
-      } catch (kvError) {
-        console.error('KV retrieval error:', kvError.message);
-      }
+      // That's okay, we might have KV data
     }
 
     // Option 3: Memory storage (fallback)
